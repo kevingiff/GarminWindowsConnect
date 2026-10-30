@@ -1,0 +1,11 @@
+# Environment variables & local secrets
+.env
+config.json
+
+# Archive folder and temporary files
+/archive/
+__pycache__/
+*.pyc
+/live/
+/app/source/developer_key
+/app/source/GeneratedConfig.mc

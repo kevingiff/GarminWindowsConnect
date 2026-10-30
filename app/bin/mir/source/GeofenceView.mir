@@ -1,0 +1,1665 @@
+[ @file = "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [WatchUi,1,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Graphics,2,14,22]; ]
+import Toybox.Graphics;
+[ @file = "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [Lang,3,14,18]; ]
+import Toybox.Lang;
+[ @file = "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc"; @line = 4; @symbol_importdef<0> = [Toybox,4,7,13]; @symbol_importdef<1> = [Application,4,14,25]; ]
+import Toybox.Application;
+[ @file = "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc"; @line = 5; @symbol_importdef<0> = [Toybox,5,7,13]; @symbol_importdef<1> = [Time,5,14,18]; ]
+import Toybox.Time;
+[ @file = "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc"; @line = 6; @symbol_importdef<0> = [Toybox,6,7,13]; @symbol_importdef<1> = [System,6,14,20]; ]
+import Toybox.System;
+[ @file = "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc"; @line = 7; @symbol_importdef<0> = [Toybox,7,7,13]; @symbol_importdef<1> = [Position,7,14,22]; ]
+import Toybox.Position;
+[ @file = "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc"; @line = 8; @symbol_importdef<0> = [Toybox,8,7,13]; @symbol_importdef<1> = [Math,8,14,18]; ]
+import Toybox.Math;
+[ @file = "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc"; @line = 10; @symbol_classdef = [GeofenceView,10,6,18]; @symbol_extends<0> = [WatchUi,10,27,34]; @symbol_extends<1> = [View,10,35,39]; ]
+class GeofenceView extends WatchUi.View {
+    [ @file = "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc"; @line = 10; ]
+    <init> {
+    }
+    [ @file = "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc"; @line = 10; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc"; @line = 12; @symbol_functiondef = [initialize,12,13,23]; ]
+    function initialize() as Void {
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_12_26_14_4_start:
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 13 8 ]
+        symbol [ View %tmp.2 13 8 12 ];
+        %tmp.2 = getv ? :View;
+        symbol [ initialize %tmp.3 13 13 23 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_12_26_14_4_stop:
+    }
+    [ @file = "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc"; @line = 16; @symbol_functiondef = [onLayout,16,13,21]; @symbol_param<0> = [dc,16,22,24]; @symbol_param<0>_type<0> = [Graphics,16,28,36]; @symbol_param<0>_type<1> = [Dc,16,37,39]; ]
+    function onLayout(dc as Graphics.Dc) as Void {
+    }
+    [ @file = "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc"; @line = 19; @symbol_functiondef = [onUpdate,19,13,21]; @symbol_param<0> = [dc,19,22,24]; @symbol_param<0>_type<0> = [Graphics,19,28,36]; @symbol_param<0>_type<1> = [Dc,19,37,39]; ]
+    function onUpdate(dc as Graphics.Dc) as Void {
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_19_49_97_4_start:
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 20 8 ]
+        [ "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_19_49_97_4_start" "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_19_49_97_4_stop" ]
+        %width.1 = local;
+        symbol [ width %width.1 20 12 17 ];
+        %tmp.1 = lgetv %dc;
+        symbol [ dc %tmp.1 20 20 22 ];
+        symbol [ getWidth %tmp.2 20 23 31 ];
+        %tmp.2 = getv function %tmp.1 :getWidth;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %width.1 %tmp.3;
+        symbol [ width %width.1 20 12 17 ];
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 22 8 ]
+        [ "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_19_49_97_4_start" "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_19_49_97_4_stop" ]
+        %dist.2 = local;
+        symbol [ dist %dist.2 22 12 16 ];
+        symbol [ Application %tmp.4 22 19 30 ];
+        %tmp.4 = getm $.Toybox.Application;
+        symbol [ Storage %tmp.5 22 31 38 ];
+        %tmp.5 = getv %tmp.4 :Storage;
+        symbol [ getValue %tmp.6 22 39 47 ];
+        %tmp.6 = getv function %tmp.5 :getValue;
+        %tmp.7 = "lastDist";
+        %tmp.8 = invoke %tmp.5 %tmp.6(%tmp.7);
+        lputv %dist.2 %tmp.8;
+        symbol [ dist %dist.2 22 12 16 ];
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 23 8 ]
+        [ "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_19_49_97_4_start" "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_19_49_97_4_stop" ]
+        %lat.3 = local;
+        symbol [ lat %lat.3 23 12 15 ];
+        symbol [ Application %tmp.9 23 18 29 ];
+        %tmp.9 = getm $.Toybox.Application;
+        symbol [ Storage %tmp.10 23 30 37 ];
+        %tmp.10 = getv %tmp.9 :Storage;
+        symbol [ getValue %tmp.11 23 38 46 ];
+        %tmp.11 = getv function %tmp.10 :getValue;
+        %tmp.12 = "lastLat";
+        %tmp.13 = invoke %tmp.10 %tmp.11(%tmp.12);
+        lputv %lat.3 %tmp.13;
+        symbol [ lat %lat.3 23 12 15 ];
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 24 8 ]
+        [ "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_19_49_97_4_start" "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_19_49_97_4_stop" ]
+        %lon.4 = local;
+        symbol [ lon %lon.4 24 12 15 ];
+        symbol [ Application %tmp.14 24 18 29 ];
+        %tmp.14 = getm $.Toybox.Application;
+        symbol [ Storage %tmp.15 24 30 37 ];
+        %tmp.15 = getv %tmp.14 :Storage;
+        symbol [ getValue %tmp.16 24 38 46 ];
+        %tmp.16 = getv function %tmp.15 :getValue;
+        %tmp.17 = "lastLon";
+        %tmp.18 = invoke %tmp.15 %tmp.16(%tmp.17);
+        lputv %lon.4 %tmp.18;
+        symbol [ lon %lon.4 24 12 15 ];
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 25 8 ]
+        [ "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_19_49_97_4_start" "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_19_49_97_4_stop" ]
+        %active.5 = local;
+        symbol [ active %active.5 25 12 18 ];
+        symbol [ Application %tmp.19 25 21 32 ];
+        %tmp.19 = getm $.Toybox.Application;
+        symbol [ Storage %tmp.20 25 33 40 ];
+        %tmp.20 = getv %tmp.19 :Storage;
+        symbol [ getValue %tmp.21 25 41 49 ];
+        %tmp.21 = getv function %tmp.20 :getValue;
+        %tmp.22 = "isListeningActive";
+        %tmp.23 = invoke %tmp.20 %tmp.21(%tmp.22);
+        lputv %active.5 %tmp.23;
+        symbol [ active %active.5 25 12 18 ];
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 26 8 ]
+        [ "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_19_49_97_4_start" "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_19_49_97_4_stop" ]
+        %isActive.6 = local;
+        symbol [ isActive %isActive.6 26 12 20 ];
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_26_24_26_52_begin:
+        %tmp.24 = lgetv %active.5;
+        symbol [ active %tmp.24 26 24 30 ];
+        %tmp.25 = null;
+        %tmp.26 = ne %tmp.24 %tmp.25;
+        %tmp.27 = dup %tmp.26;
+        bf %tmp.27 @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_26_42_26_52_end;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_26_42_26_52_true:
+        %tmp.28 = lgetv %active.5;
+        symbol [ active %tmp.28 26 42 48 ];
+        %tmp.29 = as %tmp.28 { (!Null) };
+        %tmp.30 = true;
+        %tmp.31 = eq %tmp.29 %tmp.30;
+        %tmp.32 = and %tmp.26 %tmp.31;
+        push %tmp.32;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_26_42_26_52_end:
+        %tmp.33 = phi [%tmp.27 @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_26_24_26_52_begin] [%tmp.32 @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_26_42_26_52_true] [%tmp.33 @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_26_42_26_52_end];
+        lputv %isActive.6 %tmp.33;
+        symbol [ isActive %isActive.6 26 12 20 ];
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 28 8 ]
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_28_8_36_8_if_stmt:
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_28_12_28_34_begin:
+        %tmp.34 = lgetv %lat.3;
+        symbol [ lat %tmp.34 28 12 15 ];
+        %tmp.35 = null;
+        %tmp.36 = eq %tmp.34 %tmp.35;
+        bt %tmp.36 @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_28_8_36_8_if_true;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_28_27_28_34_false:
+        %tmp.37 = lgetv %lon.4;
+        symbol [ lon %tmp.37 28 27 30 ];
+        %tmp.38 = null;
+        %tmp.39 = eq %tmp.37 %tmp.38;
+        push %tmp.39;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_28_27_28_34_end:
+        %tmp.40 = phi [%tmp.36 @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_28_12_28_34_begin] [%tmp.39 @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_28_27_28_34_false] [%tmp.40 @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_28_27_28_34_end];
+        bf %tmp.40 @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_28_8_36_8_if_else_false;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_28_8_36_8_if_true:
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_28_40_34_8_start:
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 29 12 ]
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_29_12_33_12_if_stmt:
+        %tmp.41 = lgetv %isActive.6;
+        symbol [ isActive %tmp.41 29 17 25 ];
+        %tmp.42 = not %tmp.41;
+        bf %tmp.42 @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_29_12_33_12_if_else_false;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_29_12_33_12_if_true:
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_29_27_31_12_start:
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 30 16 ]
+        %tmp.43 = lgetv %dc;
+        symbol [ dc %tmp.43 30 16 18 ];
+        symbol [ setColor %tmp.44 30 19 27 ];
+        %tmp.44 = getv function %tmp.43 :setColor;
+        %tmp.45 = 0xFFE6BA;
+        %tmp.46 = 0xFFE6BA;
+        invoke %tmp.43 %tmp.44(%tmp.45, %tmp.46);
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_29_27_31_12_stop:
+        goto @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_29_12_33_12_if_end;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_29_12_33_12_if_else_false:
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_31_17_33_12_start:
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 32 16 ]
+        %tmp.47 = lgetv %dc;
+        symbol [ dc %tmp.47 32 16 18 ];
+        symbol [ setColor %tmp.48 32 19 27 ];
+        %tmp.48 = getv function %tmp.47 :setColor;
+        %tmp.49 = 0xC2FFC4;
+        %tmp.50 = 0xC2FFC4;
+        invoke %tmp.47 %tmp.48(%tmp.49, %tmp.50);
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_31_17_33_12_stop:
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_29_12_33_12_if_end:
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_28_40_34_8_stop:
+        goto @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_28_8_36_8_if_end;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_28_8_36_8_if_else_false:
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_34_15_36_8_start:
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 35 12 ]
+        %tmp.51 = lgetv %dc;
+        symbol [ dc %tmp.51 35 12 14 ];
+        symbol [ setColor %tmp.52 35 15 23 ];
+        %tmp.52 = getv function %tmp.51 :setColor;
+        %tmp.53 = 0xEEEEEE;
+        %tmp.54 = 0xEEEEEE;
+        invoke %tmp.51 %tmp.52(%tmp.53, %tmp.54);
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_34_15_36_8_stop:
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_28_8_36_8_if_end:
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 37 8 ]
+        %tmp.55 = lgetv %dc;
+        symbol [ dc %tmp.55 37 8 10 ];
+        symbol [ clear %tmp.56 37 11 16 ];
+        %tmp.56 = getv function %tmp.55 :clear;
+        invoke %tmp.55 %tmp.56();
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 39 8 ]
+        %tmp.57 = lgetv %dc;
+        symbol [ dc %tmp.57 39 8 10 ];
+        symbol [ setColor %tmp.58 39 11 19 ];
+        %tmp.58 = getv function %tmp.57 :setColor;
+        symbol [ Graphics %tmp.59 39 20 28 ];
+        %tmp.59 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.60 39 29 40 ];
+        %tmp.60 = getv %tmp.59 :COLOR_BLACK;
+        symbol [ Graphics %tmp.61 39 42 50 ];
+        %tmp.61 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.62 39 51 68 ];
+        %tmp.62 = getv %tmp.61 :COLOR_TRANSPARENT;
+        invoke %tmp.57 %tmp.58(%tmp.60, %tmp.62);
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 40 8 ]
+        %tmp.63 = lgetv %dc;
+        symbol [ dc %tmp.63 40 8 10 ];
+        symbol [ drawText %tmp.64 40 11 19 ];
+        %tmp.64 = getv function %tmp.63 :drawText;
+        %tmp.65 = lgetv %width.1;
+        symbol [ width %tmp.65 40 20 25 ];
+        %tmp.66 = 2;
+        %tmp.67 = div %tmp.65 %tmp.66;
+        %tmp.68 = 38;
+        symbol [ Graphics %tmp.69 40 35 43 ];
+        %tmp.69 = getm $.Toybox.Graphics;
+        symbol [ FONT_SMALL %tmp.70 40 44 54 ];
+        %tmp.70 = getv %tmp.69 :FONT_SMALL;
+        %tmp.71 = "Geofence";
+        symbol [ Graphics %tmp.72 40 68 76 ];
+        %tmp.72 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.73 40 77 96 ];
+        %tmp.73 = getv %tmp.72 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.63 %tmp.64(%tmp.67, %tmp.68, %tmp.70, %tmp.71, %tmp.73);
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 42 8 ]
+        [ "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_19_49_97_4_start" "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_19_49_97_4_stop" ]
+        %buttonY.7 = local;
+        symbol [ buttonY %buttonY.7 42 12 19 ];
+        %tmp.74 = 73;
+        lputv %buttonY.7 %tmp.74;
+        symbol [ buttonY %buttonY.7 42 12 19 ];
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 43 8 ]
+        [ "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_19_49_97_4_start" "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_19_49_97_4_stop" ]
+        %globalSpacer.8 = local;
+        symbol [ globalSpacer %globalSpacer.8 43 12 24 ];
+        %tmp.75 = 15;
+        lputv %globalSpacer.8 %tmp.75;
+        symbol [ globalSpacer %globalSpacer.8 43 12 24 ];
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 44 8 ]
+        %tmp.76 = lgetv %buttonY.7;
+        symbol [ buttonY %tmp.76 44 8 15 ];
+        %tmp.77 = lgetv %globalSpacer.8;
+        symbol [ globalSpacer %tmp.77 44 17 29 ];
+        %tmp.78 = add %tmp.76 %tmp.77;
+        lputv %buttonY.7 %tmp.78;
+        symbol [ buttonY %buttonY.7 44 8 15 ];
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 45 8 ]
+        [ "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_19_49_97_4_start" "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_19_49_97_4_stop" ]
+        %buttonHeight.9 = local;
+        symbol [ buttonHeight %buttonHeight.9 45 12 24 ];
+        %tmp.79 = 48;
+        lputv %buttonHeight.9 %tmp.79;
+        symbol [ buttonHeight %buttonHeight.9 45 12 24 ];
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 46 8 ]
+        [ "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_19_49_97_4_start" "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_19_49_97_4_stop" ]
+        %buttonWidth.10 = local;
+        symbol [ buttonWidth %buttonWidth.10 46 12 23 ];
+        %tmp.80 = lgetv %width.1;
+        symbol [ width %tmp.80 46 27 32 ];
+        %tmp.81 = 0.65;
+        %tmp.82 = mul %tmp.80 %tmp.81;
+        symbol [ toNumber %tmp.83 46 41 49 ];
+        %tmp.83 = getv function %tmp.82 :toNumber;
+        %tmp.84 = invoke %tmp.82 %tmp.83();
+        lputv %buttonWidth.10 %tmp.84;
+        symbol [ buttonWidth %buttonWidth.10 46 12 23 ];
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 47 8 ]
+        [ "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_19_49_97_4_start" "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_19_49_97_4_stop" ]
+        %buttonX.11 = local;
+        symbol [ buttonX %buttonX.11 47 12 19 ];
+        %tmp.85 = lgetv %width.1;
+        symbol [ width %tmp.85 47 23 28 ];
+        %tmp.86 = lgetv %buttonWidth.10;
+        symbol [ buttonWidth %tmp.86 47 31 42 ];
+        %tmp.87 = sub %tmp.85 %tmp.86;
+        %tmp.88 = 2;
+        %tmp.89 = div %tmp.87 %tmp.88;
+        lputv %buttonX.11 %tmp.89;
+        symbol [ buttonX %buttonX.11 47 12 19 ];
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 49 8 ]
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_49_8_63_8_if_stmt:
+        %tmp.90 = lgetv %isActive.6;
+        symbol [ isActive %tmp.90 49 12 20 ];
+        bf %tmp.90 @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_49_8_63_8_if_else_false;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_49_8_63_8_if_true:
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_49_22_55_8_start:
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 50 12 ]
+        %tmp.91 = lgetv %dc;
+        symbol [ dc %tmp.91 50 12 14 ];
+        symbol [ setColor %tmp.92 50 15 23 ];
+        %tmp.92 = getv function %tmp.91 :setColor;
+        symbol [ Graphics %tmp.93 50 24 32 ];
+        %tmp.93 = getm $.Toybox.Graphics;
+        symbol [ COLOR_DK_RED %tmp.94 50 33 45 ];
+        %tmp.94 = getv %tmp.93 :COLOR_DK_RED;
+        symbol [ Graphics %tmp.95 50 47 55 ];
+        %tmp.95 = getm $.Toybox.Graphics;
+        symbol [ COLOR_DK_RED %tmp.96 50 56 68 ];
+        %tmp.96 = getv %tmp.95 :COLOR_DK_RED;
+        invoke %tmp.91 %tmp.92(%tmp.94, %tmp.96);
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 51 12 ]
+        %tmp.97 = lgetv %dc;
+        symbol [ dc %tmp.97 51 12 14 ];
+        symbol [ fillRoundedRectangle %tmp.98 51 15 35 ];
+        %tmp.98 = getv function %tmp.97 :fillRoundedRectangle;
+        %tmp.99 = lgetv %buttonX.11;
+        symbol [ buttonX %tmp.99 51 36 43 ];
+        %tmp.100 = lgetv %buttonY.7;
+        symbol [ buttonY %tmp.100 51 45 52 ];
+        %tmp.101 = 6;
+        %tmp.102 = add %tmp.100 %tmp.101;
+        %tmp.103 = lgetv %buttonWidth.10;
+        symbol [ buttonWidth %tmp.103 51 58 69 ];
+        %tmp.104 = lgetv %buttonHeight.9;
+        symbol [ buttonHeight %tmp.104 51 71 83 ];
+        %tmp.105 = 10;
+        invoke %tmp.97 %tmp.98(%tmp.99, %tmp.102, %tmp.103, %tmp.104, %tmp.105);
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 53 12 ]
+        %tmp.106 = lgetv %dc;
+        symbol [ dc %tmp.106 53 12 14 ];
+        symbol [ setColor %tmp.107 53 15 23 ];
+        %tmp.107 = getv function %tmp.106 :setColor;
+        symbol [ Graphics %tmp.108 53 24 32 ];
+        %tmp.108 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.109 53 33 44 ];
+        %tmp.109 = getv %tmp.108 :COLOR_WHITE;
+        symbol [ Graphics %tmp.110 53 46 54 ];
+        %tmp.110 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.111 53 55 72 ];
+        %tmp.111 = getv %tmp.110 :COLOR_TRANSPARENT;
+        invoke %tmp.106 %tmp.107(%tmp.109, %tmp.111);
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 54 12 ]
+        %tmp.112 = lgetv %dc;
+        symbol [ dc %tmp.112 54 12 14 ];
+        symbol [ drawText %tmp.113 54 15 23 ];
+        %tmp.113 = getv function %tmp.112 :drawText;
+        %tmp.114 = lgetv %width.1;
+        symbol [ width %tmp.114 54 24 29 ];
+        %tmp.115 = 2;
+        %tmp.116 = div %tmp.114 %tmp.115;
+        %tmp.117 = lgetv %buttonY.7;
+        symbol [ buttonY %tmp.117 54 35 42 ];
+        %tmp.118 = 10;
+        %tmp.119 = add %tmp.117 %tmp.118;
+        symbol [ Graphics %tmp.120 54 49 57 ];
+        %tmp.120 = getm $.Toybox.Graphics;
+        symbol [ FONT_MEDIUM %tmp.121 54 58 69 ];
+        %tmp.121 = getv %tmp.120 :FONT_MEDIUM;
+        %tmp.122 = "| |";
+        symbol [ Graphics %tmp.123 54 78 86 ];
+        %tmp.123 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.124 54 87 106 ];
+        %tmp.124 = getv %tmp.123 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.112 %tmp.113(%tmp.116, %tmp.119, %tmp.121, %tmp.122, %tmp.124);
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_49_22_55_8_stop:
+        goto @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_49_8_63_8_if_end;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_49_8_63_8_if_else_false:
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_55_15_63_8_start:
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 56 12 ]
+        %tmp.125 = lgetv %dc;
+        symbol [ dc %tmp.125 56 12 14 ];
+        symbol [ setColor %tmp.126 56 15 23 ];
+        %tmp.126 = getv function %tmp.125 :setColor;
+        %tmp.127 = 0x095700;
+        %tmp.128 = 0x095700;
+        invoke %tmp.125 %tmp.126(%tmp.127, %tmp.128);
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 57 12 ]
+        %tmp.129 = lgetv %dc;
+        symbol [ dc %tmp.129 57 12 14 ];
+        symbol [ fillRoundedRectangle %tmp.130 57 15 35 ];
+        %tmp.130 = getv function %tmp.129 :fillRoundedRectangle;
+        %tmp.131 = lgetv %buttonX.11;
+        symbol [ buttonX %tmp.131 57 36 43 ];
+        %tmp.132 = lgetv %buttonX.11;
+        symbol [ buttonX %tmp.132 57 47 54 ];
+        %tmp.133 = 6;
+        %tmp.134 = div %tmp.132 %tmp.133;
+        %tmp.135 = sub %tmp.131 %tmp.134;
+        %tmp.136 = lgetv %buttonY.7;
+        symbol [ buttonY %tmp.136 57 61 68 ];
+        %tmp.137 = 12;
+        %tmp.138 = add %tmp.136 %tmp.137;
+        %tmp.139 = lgetv %buttonWidth.10;
+        symbol [ buttonWidth %tmp.139 57 75 86 ];
+        %tmp.140 = lgetv %buttonHeight.9;
+        symbol [ buttonHeight %tmp.140 57 88 100 ];
+        %tmp.141 = 10;
+        invoke %tmp.129 %tmp.130(%tmp.135, %tmp.138, %tmp.139, %tmp.140, %tmp.141);
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 58 12 ]
+        %tmp.142 = lgetv %dc;
+        symbol [ dc %tmp.142 58 12 14 ];
+        symbol [ setColor %tmp.143 58 15 23 ];
+        %tmp.143 = getv function %tmp.142 :setColor;
+        symbol [ Graphics %tmp.144 58 24 32 ];
+        %tmp.144 = getm $.Toybox.Graphics;
+        symbol [ COLOR_DK_GREEN %tmp.145 58 33 47 ];
+        %tmp.145 = getv %tmp.144 :COLOR_DK_GREEN;
+        symbol [ Graphics %tmp.146 58 49 57 ];
+        %tmp.146 = getm $.Toybox.Graphics;
+        symbol [ COLOR_DK_GREEN %tmp.147 58 58 72 ];
+        %tmp.147 = getv %tmp.146 :COLOR_DK_GREEN;
+        invoke %tmp.142 %tmp.143(%tmp.145, %tmp.147);
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 59 12 ]
+        %tmp.148 = lgetv %dc;
+        symbol [ dc %tmp.148 59 12 14 ];
+        symbol [ fillRoundedRectangle %tmp.149 59 15 35 ];
+        %tmp.149 = getv function %tmp.148 :fillRoundedRectangle;
+        %tmp.150 = lgetv %buttonX.11;
+        symbol [ buttonX %tmp.150 59 36 43 ];
+        %tmp.151 = lgetv %buttonY.7;
+        symbol [ buttonY %tmp.151 59 45 52 ];
+        %tmp.152 = 6;
+        %tmp.153 = add %tmp.151 %tmp.152;
+        %tmp.154 = lgetv %buttonWidth.10;
+        symbol [ buttonWidth %tmp.154 59 58 69 ];
+        %tmp.155 = lgetv %buttonHeight.9;
+        symbol [ buttonHeight %tmp.155 59 71 83 ];
+        %tmp.156 = 10;
+        invoke %tmp.148 %tmp.149(%tmp.150, %tmp.153, %tmp.154, %tmp.155, %tmp.156);
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 61 12 ]
+        %tmp.157 = lgetv %dc;
+        symbol [ dc %tmp.157 61 12 14 ];
+        symbol [ setColor %tmp.158 61 15 23 ];
+        %tmp.158 = getv function %tmp.157 :setColor;
+        symbol [ Graphics %tmp.159 61 24 32 ];
+        %tmp.159 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.160 61 33 44 ];
+        %tmp.160 = getv %tmp.159 :COLOR_WHITE;
+        symbol [ Graphics %tmp.161 61 46 54 ];
+        %tmp.161 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.162 61 55 72 ];
+        %tmp.162 = getv %tmp.161 :COLOR_TRANSPARENT;
+        invoke %tmp.157 %tmp.158(%tmp.160, %tmp.162);
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 62 12 ]
+        %tmp.163 = lgetv %dc;
+        symbol [ dc %tmp.163 62 12 14 ];
+        symbol [ drawText %tmp.164 62 15 23 ];
+        %tmp.164 = getv function %tmp.163 :drawText;
+        %tmp.165 = lgetv %width.1;
+        symbol [ width %tmp.165 62 24 29 ];
+        %tmp.166 = 2;
+        %tmp.167 = div %tmp.165 %tmp.166;
+        %tmp.168 = lgetv %buttonY.7;
+        symbol [ buttonY %tmp.168 62 35 42 ];
+        %tmp.169 = 10;
+        %tmp.170 = add %tmp.168 %tmp.169;
+        symbol [ Graphics %tmp.171 62 49 57 ];
+        %tmp.171 = getm $.Toybox.Graphics;
+        symbol [ FONT_MEDIUM %tmp.172 62 58 69 ];
+        %tmp.172 = getv %tmp.171 :FONT_MEDIUM;
+        %tmp.173 = "READY";
+        symbol [ Graphics %tmp.174 62 80 88 ];
+        %tmp.174 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.175 62 89 108 ];
+        %tmp.175 = getv %tmp.174 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.163 %tmp.164(%tmp.167, %tmp.170, %tmp.172, %tmp.173, %tmp.175);
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_55_15_63_8_stop:
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_49_8_63_8_if_end:
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 68 8 ]
+        %tmp.176 = lgetv %dc;
+        symbol [ dc %tmp.176 68 8 10 ];
+        symbol [ setColor %tmp.177 68 11 19 ];
+        %tmp.177 = getv function %tmp.176 :setColor;
+        symbol [ Graphics %tmp.178 68 20 28 ];
+        %tmp.178 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.179 68 29 40 ];
+        %tmp.179 = getv %tmp.178 :COLOR_BLACK;
+        symbol [ Graphics %tmp.180 68 42 50 ];
+        %tmp.180 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.181 68 51 68 ];
+        %tmp.181 = getv %tmp.180 :COLOR_TRANSPARENT;
+        invoke %tmp.176 %tmp.177(%tmp.179, %tmp.181);
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 69 8 ]
+        [ "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_19_49_97_4_start" "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_19_49_97_4_stop" ]
+        %yPos.12 = local;
+        symbol [ yPos %yPos.12 69 12 16 ];
+        %tmp.182 = lgetv %buttonY.7;
+        symbol [ buttonY %tmp.182 69 19 26 ];
+        %tmp.183 = 44;
+        %tmp.184 = add %tmp.182 %tmp.183;
+        lputv %yPos.12 %tmp.184;
+        symbol [ yPos %yPos.12 69 12 16 ];
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 71 8 ]
+        [ "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_19_49_97_4_start" "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_19_49_97_4_stop" ]
+        %showCoordsObj.13 = local;
+        symbol [ showCoordsObj %showCoordsObj.13 71 12 25 ];
+        symbol [ Application %tmp.185 71 28 39 ];
+        %tmp.185 = getm $.Toybox.Application;
+        symbol [ Storage %tmp.186 71 40 47 ];
+        %tmp.186 = getv %tmp.185 :Storage;
+        symbol [ getValue %tmp.187 71 48 56 ];
+        %tmp.187 = getv function %tmp.186 :getValue;
+        %tmp.188 = "showCoords";
+        %tmp.189 = invoke %tmp.186 %tmp.187(%tmp.188);
+        lputv %showCoordsObj.13 %tmp.189;
+        symbol [ showCoordsObj %showCoordsObj.13 71 12 25 ];
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 72 8 ]
+        [ "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_19_49_97_4_start" "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_19_49_97_4_stop" ]
+        %showCoords.14 = local;
+        symbol [ showCoords %showCoords.14 72 12 22 ];
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_72_25_72_80_begin:
+        %tmp.190 = lgetv %showCoordsObj.13;
+        symbol [ showCoordsObj %tmp.190 72 26 39 ];
+        %tmp.191 = null;
+        %tmp.192 = ne %tmp.190 %tmp.191;
+        bf %tmp.192 @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_72_25_72_80_else_false;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_72_25_72_80_true:
+        %tmp.193 = lgetv %showCoordsObj.13;
+        symbol [ showCoordsObj %tmp.193 72 52 65 ];
+        %tmp.194 = as %tmp.193 { (!Null) };
+        %tmp.195 = as %tmp.194 Boolean;
+        symbol [ Boolean %tmp.195 72 69 76 ];
+        push %tmp.195;
+        goto @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_72_25_72_80_end;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_72_25_72_80_else_false:
+        %tmp.196 = false;
+        push %tmp.196;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_72_25_72_80_end:
+        %tmp.197 = phi [%tmp.192 @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_72_25_72_80_begin] [%tmp.195 @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_72_25_72_80_true] [%tmp.196 @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_72_25_72_80_else_false] [%tmp.197 @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_72_25_72_80_end];
+        lputv %showCoords.14 %tmp.197;
+        symbol [ showCoords %showCoords.14 72 12 22 ];
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 74 8 ]
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_74_8_96_8_if_stmt:
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_74_12_74_34_begin:
+        %tmp.198 = lgetv %lat.3;
+        symbol [ lat %tmp.198 74 12 15 ];
+        %tmp.199 = null;
+        %tmp.200 = ne %tmp.198 %tmp.199;
+        bf %tmp.200 @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_74_8_96_8_if_else_false;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_74_27_74_34_true:
+        %tmp.201 = lgetv %lon.4;
+        symbol [ lon %tmp.201 74 27 30 ];
+        %tmp.202 = null;
+        %tmp.203 = ne %tmp.201 %tmp.202;
+        push %tmp.203;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_74_27_74_34_end:
+        %tmp.204 = phi [%tmp.200 @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_74_12_74_34_begin] [%tmp.203 @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_74_27_74_34_true] [%tmp.204 @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_74_27_74_34_end];
+        bf %tmp.204 @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_74_8_96_8_if_else_false;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_74_8_96_8_if_true:
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_74_40_91_8_start:
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 75 12 ]
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_75_12_77_12_if_stmt:
+        %tmp.205 = lgetv %dist.2;
+        symbol [ dist %tmp.205 75 16 20 ];
+        %tmp.206 = null;
+        %tmp.207 = ne %tmp.205 %tmp.206;
+        bf %tmp.207 @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_75_12_77_12_if_end;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_75_12_77_12_if_true:
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_75_30_77_12_start:
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 76 16 ]
+        %tmp.208 = lgetv %dc;
+        symbol [ dc %tmp.208 76 16 18 ];
+        symbol [ drawText %tmp.209 76 19 27 ];
+        %tmp.209 = getv function %tmp.208 :drawText;
+        %tmp.210 = lgetv %width.1;
+        symbol [ width %tmp.210 76 28 33 ];
+        %tmp.211 = 2;
+        %tmp.212 = div %tmp.210 %tmp.211;
+        %tmp.213 = lgetv %yPos.12;
+        symbol [ yPos %tmp.213 76 39 43 ];
+        %tmp.214 = 20;
+        %tmp.215 = add %tmp.213 %tmp.214;
+        symbol [ Graphics %tmp.216 76 50 58 ];
+        %tmp.216 = getm $.Toybox.Graphics;
+        symbol [ FONT_XTINY %tmp.217 76 59 69 ];
+        %tmp.217 = getv %tmp.216 :FONT_XTINY;
+        %tmp.218 = "Dist to Target: ";
+        %tmp.219 = lgetv %dist.2;
+        symbol [ dist %tmp.219 76 92 96 ];
+        %tmp.220 = as %tmp.219 { (!Null) };
+        symbol [ format %tmp.221 76 97 103 ];
+        %tmp.221 = getv function %tmp.220 :format;
+        %tmp.222 = "%.1f";
+        %tmp.223 = invoke %tmp.220 %tmp.221(%tmp.222);
+        %tmp.224 = add %tmp.218 %tmp.223;
+        %tmp.225 = "m";
+        %tmp.226 = add %tmp.224 %tmp.225;
+        symbol [ Graphics %tmp.227 76 119 127 ];
+        %tmp.227 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.228 76 128 147 ];
+        %tmp.228 = getv %tmp.227 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.208 %tmp.209(%tmp.212, %tmp.215, %tmp.217, %tmp.226, %tmp.228);
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_75_30_77_12_stop:
+        goto @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_75_12_77_12_if_end;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_75_12_77_12_if_end:
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 78 12 ]
+        %tmp.229 = lgetv %yPos.12;
+        symbol [ yPos %tmp.229 78 12 16 ];
+        %tmp.230 = 48;
+        %tmp.231 = add %tmp.229 %tmp.230;
+        lputv %yPos.12 %tmp.231;
+        symbol [ yPos %yPos.12 78 12 16 ];
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 80 12 ]
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_80_12_90_12_if_stmt:
+        %tmp.232 = lgetv %showCoords.14;
+        symbol [ showCoords %tmp.232 80 16 26 ];
+        bf %tmp.232 @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_80_12_90_12_if_else_false;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_80_12_90_12_if_true:
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_80_28_86_12_start:
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 81 16 ]
+        %tmp.233 = lgetv %dc;
+        symbol [ dc %tmp.233 81 16 18 ];
+        symbol [ drawText %tmp.234 81 19 27 ];
+        %tmp.234 = getv function %tmp.233 :drawText;
+        %tmp.235 = lgetv %width.1;
+        symbol [ width %tmp.235 81 28 33 ];
+        %tmp.236 = 2;
+        %tmp.237 = div %tmp.235 %tmp.236;
+        %tmp.238 = lgetv %yPos.12;
+        symbol [ yPos %tmp.238 81 39 43 ];
+        symbol [ Graphics %tmp.239 81 45 53 ];
+        %tmp.239 = getm $.Toybox.Graphics;
+        symbol [ FONT_XTINY %tmp.240 81 54 64 ];
+        %tmp.240 = getv %tmp.239 :FONT_XTINY;
+        %tmp.241 = "POSITION";
+        symbol [ Graphics %tmp.242 81 78 86 ];
+        %tmp.242 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.243 81 87 106 ];
+        %tmp.243 = getv %tmp.242 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.233 %tmp.234(%tmp.237, %tmp.238, %tmp.240, %tmp.241, %tmp.243);
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 82 16 ]
+        %tmp.244 = lgetv %yPos.12;
+        symbol [ yPos %tmp.244 82 16 20 ];
+        %tmp.245 = 18;
+        %tmp.246 = add %tmp.244 %tmp.245;
+        lputv %yPos.12 %tmp.246;
+        symbol [ yPos %yPos.12 82 16 20 ];
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 83 16 ]
+        %tmp.247 = lgetv %dc;
+        symbol [ dc %tmp.247 83 16 18 ];
+        symbol [ drawText %tmp.248 83 19 27 ];
+        %tmp.248 = getv function %tmp.247 :drawText;
+        %tmp.249 = lgetv %width.1;
+        symbol [ width %tmp.249 83 28 33 ];
+        %tmp.250 = 2;
+        %tmp.251 = div %tmp.249 %tmp.250;
+        %tmp.252 = lgetv %yPos.12;
+        symbol [ yPos %tmp.252 83 39 43 ];
+        symbol [ Graphics %tmp.253 83 45 53 ];
+        %tmp.253 = getm $.Toybox.Graphics;
+        symbol [ FONT_XTINY %tmp.254 83 54 64 ];
+        %tmp.254 = getv %tmp.253 :FONT_XTINY;
+        %tmp.255 = "Lon: ";
+        %tmp.256 = lgetv %lon.4;
+        symbol [ lon %tmp.256 83 76 79 ];
+        %tmp.257 = as %tmp.256 { (!Null) };
+        symbol [ format %tmp.258 83 80 86 ];
+        %tmp.258 = getv function %tmp.257 :format;
+        %tmp.259 = "%.5f";
+        %tmp.260 = invoke %tmp.257 %tmp.258(%tmp.259);
+        %tmp.261 = add %tmp.255 %tmp.260;
+        symbol [ Graphics %tmp.262 83 96 104 ];
+        %tmp.262 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.263 83 105 124 ];
+        %tmp.263 = getv %tmp.262 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.247 %tmp.248(%tmp.251, %tmp.252, %tmp.254, %tmp.261, %tmp.263);
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 84 16 ]
+        %tmp.264 = lgetv %yPos.12;
+        symbol [ yPos %tmp.264 84 16 20 ];
+        %tmp.265 = 20;
+        %tmp.266 = add %tmp.264 %tmp.265;
+        lputv %yPos.12 %tmp.266;
+        symbol [ yPos %yPos.12 84 16 20 ];
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 85 16 ]
+        %tmp.267 = lgetv %dc;
+        symbol [ dc %tmp.267 85 16 18 ];
+        symbol [ drawText %tmp.268 85 19 27 ];
+        %tmp.268 = getv function %tmp.267 :drawText;
+        %tmp.269 = lgetv %width.1;
+        symbol [ width %tmp.269 85 28 33 ];
+        %tmp.270 = 2;
+        %tmp.271 = div %tmp.269 %tmp.270;
+        %tmp.272 = lgetv %yPos.12;
+        symbol [ yPos %tmp.272 85 39 43 ];
+        symbol [ Graphics %tmp.273 85 45 53 ];
+        %tmp.273 = getm $.Toybox.Graphics;
+        symbol [ FONT_XTINY %tmp.274 85 54 64 ];
+        %tmp.274 = getv %tmp.273 :FONT_XTINY;
+        %tmp.275 = "Lat: ";
+        %tmp.276 = lgetv %lat.3;
+        symbol [ lat %tmp.276 85 76 79 ];
+        %tmp.277 = as %tmp.276 { (!Null) };
+        symbol [ format %tmp.278 85 80 86 ];
+        %tmp.278 = getv function %tmp.277 :format;
+        %tmp.279 = "%.5f";
+        %tmp.280 = invoke %tmp.277 %tmp.278(%tmp.279);
+        %tmp.281 = add %tmp.275 %tmp.280;
+        symbol [ Graphics %tmp.282 85 96 104 ];
+        %tmp.282 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.283 85 105 124 ];
+        %tmp.283 = getv %tmp.282 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.267 %tmp.268(%tmp.271, %tmp.272, %tmp.274, %tmp.281, %tmp.283);
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_80_28_86_12_stop:
+        goto @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_80_12_90_12_if_end;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_80_12_90_12_if_else_false:
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_86_19_90_12_start:
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 88 16 ]
+        %tmp.284 = lgetv %dc;
+        symbol [ dc %tmp.284 88 16 18 ];
+        symbol [ setColor %tmp.285 88 19 27 ];
+        %tmp.285 = getv function %tmp.284 :setColor;
+        %tmp.286 = 0x005999;
+        symbol [ Graphics %tmp.287 88 38 46 ];
+        %tmp.287 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.288 88 47 64 ];
+        %tmp.288 = getv %tmp.287 :COLOR_TRANSPARENT;
+        invoke %tmp.284 %tmp.285(%tmp.286, %tmp.288);
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 89 16 ]
+        %tmp.289 = lgetv %dc;
+        symbol [ dc %tmp.289 89 16 18 ];
+        symbol [ drawText %tmp.290 89 19 27 ];
+        %tmp.290 = getv function %tmp.289 :drawText;
+        %tmp.291 = lgetv %width.1;
+        symbol [ width %tmp.291 89 28 33 ];
+        %tmp.292 = 2;
+        %tmp.293 = div %tmp.291 %tmp.292;
+        %tmp.294 = lgetv %yPos.12;
+        symbol [ yPos %tmp.294 89 39 43 ];
+        symbol [ Graphics %tmp.295 89 45 53 ];
+        %tmp.295 = getm $.Toybox.Graphics;
+        symbol [ FONT_TINY %tmp.296 89 54 63 ];
+        %tmp.296 = getv %tmp.295 :FONT_TINY;
+        %tmp.297 = "[ SHOW POSITION ]";
+        symbol [ Graphics %tmp.298 89 86 94 ];
+        %tmp.298 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.299 89 95 114 ];
+        %tmp.299 = getv %tmp.298 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.289 %tmp.290(%tmp.293, %tmp.294, %tmp.296, %tmp.297, %tmp.299);
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_86_19_90_12_stop:
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_80_12_90_12_if_end:
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_74_40_91_8_stop:
+        goto @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_74_8_96_8_if_end;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_74_8_96_8_if_else_false:
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_91_15_96_8_start:
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 92 12 ]
+        %tmp.300 = lgetv %dc;
+        symbol [ dc %tmp.300 92 12 14 ];
+        symbol [ drawText %tmp.301 92 15 23 ];
+        %tmp.301 = getv function %tmp.300 :drawText;
+        %tmp.302 = lgetv %width.1;
+        symbol [ width %tmp.302 92 24 29 ];
+        %tmp.303 = 2;
+        %tmp.304 = div %tmp.302 %tmp.303;
+        %tmp.305 = lgetv %yPos.12;
+        symbol [ yPos %tmp.305 92 35 39 ];
+        %tmp.306 = 22;
+        %tmp.307 = add %tmp.305 %tmp.306;
+        symbol [ Graphics %tmp.308 92 46 54 ];
+        %tmp.308 = getm $.Toybox.Graphics;
+        symbol [ FONT_XTINY %tmp.309 92 55 65 ];
+        %tmp.309 = getv %tmp.308 :FONT_XTINY;
+        %tmp.310 = "POSITION HISTORY";
+        symbol [ Graphics %tmp.311 92 87 95 ];
+        %tmp.311 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.312 92 96 115 ];
+        %tmp.312 = getv %tmp.311 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.300 %tmp.301(%tmp.304, %tmp.307, %tmp.309, %tmp.310, %tmp.312);
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 93 12 ]
+        %tmp.313 = lgetv %yPos.12;
+        symbol [ yPos %tmp.313 93 12 16 ];
+        %tmp.314 = 24;
+        %tmp.315 = add %tmp.313 %tmp.314;
+        lputv %yPos.12 %tmp.315;
+        symbol [ yPos %yPos.12 93 12 16 ];
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 94 12 ]
+        %tmp.316 = lgetv %dc;
+        symbol [ dc %tmp.316 94 12 14 ];
+        symbol [ setColor %tmp.317 94 15 23 ];
+        %tmp.317 = getv function %tmp.316 :setColor;
+        symbol [ Graphics %tmp.318 94 24 32 ];
+        %tmp.318 = getm $.Toybox.Graphics;
+        symbol [ COLOR_DK_GRAY %tmp.319 94 33 46 ];
+        %tmp.319 = getv %tmp.318 :COLOR_DK_GRAY;
+        symbol [ Graphics %tmp.320 94 48 56 ];
+        %tmp.320 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.321 94 57 74 ];
+        %tmp.321 = getv %tmp.320 :COLOR_TRANSPARENT;
+        invoke %tmp.316 %tmp.317(%tmp.319, %tmp.321);
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 95 12 ]
+        %tmp.322 = lgetv %dc;
+        symbol [ dc %tmp.322 95 12 14 ];
+        symbol [ drawText %tmp.323 95 15 23 ];
+        %tmp.323 = getv function %tmp.322 :drawText;
+        %tmp.324 = lgetv %width.1;
+        symbol [ width %tmp.324 95 24 29 ];
+        %tmp.325 = 2;
+        %tmp.326 = div %tmp.324 %tmp.325;
+        %tmp.327 = lgetv %yPos.12;
+        symbol [ yPos %tmp.327 95 35 39 ];
+        %tmp.328 = 18;
+        %tmp.329 = add %tmp.327 %tmp.328;
+        symbol [ Graphics %tmp.330 95 46 54 ];
+        %tmp.330 = getm $.Toybox.Graphics;
+        symbol [ FONT_XTINY %tmp.331 95 55 65 ];
+        %tmp.331 = getv %tmp.330 :FONT_XTINY;
+        %tmp.332 = "n/a";
+        symbol [ Graphics %tmp.333 95 74 82 ];
+        %tmp.333 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.334 95 83 102 ];
+        %tmp.334 = getv %tmp.333 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.322 %tmp.323(%tmp.326, %tmp.329, %tmp.331, %tmp.332, %tmp.334);
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_91_15_96_8_stop:
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_74_8_96_8_if_end:
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_19_49_97_4_stop:
+    }
+}
+[ @file = "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc"; @line = 100; @symbol_classdef = [GeofenceDelegate,100,6,22]; @symbol_extends<0> = [WatchUi,100,31,38]; @symbol_extends<1> = [BehaviorDelegate,100,39,55]; ]
+class GeofenceDelegate extends WatchUi.BehaviorDelegate {
+    [ @file = "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc"; @line = 100; ]
+    <init> {
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 104 18 ]
+        symbol [ GeneratedConfig %tmp.336 104 31 46 ];
+        %tmp.336 = getv ? :GeneratedConfig;
+        symbol [ TARGET_LAT %tmp.337 104 47 57 ];
+        %tmp.337 = getv %tmp.336 :TARGET_LAT;
+        putv self :TARGET_LAT %tmp.337;
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 105 18 ]
+        symbol [ GeneratedConfig %tmp.339 105 31 46 ];
+        %tmp.339 = getv ? :GeneratedConfig;
+        symbol [ TARGET_LON %tmp.340 105 47 57 ];
+        %tmp.340 = getv %tmp.339 :TARGET_LON;
+        putv self :TARGET_LON %tmp.340;
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 106 18 ]
+        symbol [ GeneratedConfig %tmp.342 106 34 49 ];
+        %tmp.342 = getv ? :GeneratedConfig;
+        symbol [ RADIUS_METERS %tmp.343 106 50 63 ];
+        %tmp.343 = getv %tmp.342 :RADIUS_METERS;
+        putv self :RADIUS_METERS %tmp.343;
+    }
+    [ @file = "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc"; @line = 100; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc"; @line = 101; @position = 22; @symbol_vardef = [hasTriggeredInSession,101,22,43]; ]
+    public static
+    var hasTriggeredInSession = false;
+    [ @file = "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc"; @line = 102; @position = 22; @symbol_vardef = [snoozeUntilTime,102,22,37]; ]
+    public static
+    var snoozeUntilTime = 0;
+    [ @file = "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc"; @line = 104; @position = 18; @symbol_constdef = [TARGET_LAT,104,18,28]; ]
+    private
+    const TARGET_LAT;
+    [ @file = "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc"; @line = 105; @position = 18; @symbol_constdef = [TARGET_LON,105,18,28]; ]
+    private
+    const TARGET_LON;
+    [ @file = "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc"; @line = 106; @position = 18; @symbol_constdef = [RADIUS_METERS,106,18,31]; ]
+    private
+    const RADIUS_METERS;
+    [ @file = "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc"; @line = 108; @symbol_functiondef = [initialize,108,13,23]; ]
+    function initialize() as Void {
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_108_26_110_4_start:
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 109 8 ]
+        symbol [ BehaviorDelegate %tmp.2 109 8 24 ];
+        %tmp.2 = getv ? :BehaviorDelegate;
+        symbol [ initialize %tmp.3 109 25 35 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_108_26_110_4_stop:
+    }
+    [ @file = "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc"; @line = 112; @symbol_functiondef = [onBack,112,13,19]; @symbol_return<0> = [Boolean,112,25,32]; ]
+    function onBack() as Boolean {
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_112_33_114_4_start:
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 113 8 ]
+        %tmp.1 = false;
+        ret %tmp.1;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_112_33_114_4_stop:
+    }
+    [ @file = "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc"; @line = 116; @symbol_functiondef = [onTap,116,13,18]; @symbol_param<0> = [evt,116,19,22]; @symbol_param<0>_type<0> = [WatchUi,116,26,33]; @symbol_param<0>_type<1> = [ClickEvent,116,34,44]; @symbol_return<0> = [Boolean,116,49,56]; ]
+    function onTap(evt as WatchUi.ClickEvent) as Boolean {
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_116_57_136_4_start:
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 117 8 ]
+        [ "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_116_57_136_4_start" "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_116_57_136_4_stop" ]
+        %coords.1 = local;
+        symbol [ coords %coords.1 117 12 18 ];
+        %tmp.1 = lgetv %evt;
+        symbol [ evt %tmp.1 117 21 24 ];
+        symbol [ getCoordinates %tmp.2 117 25 39 ];
+        %tmp.2 = getv function %tmp.1 :getCoordinates;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %coords.1 %tmp.3;
+        symbol [ coords %coords.1 117 12 18 ];
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 118 8 ]
+        [ "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_116_57_136_4_start" "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_116_57_136_4_stop" ]
+        %yPos.2 = local;
+        symbol [ yPos %yPos.2 118 12 16 ];
+        %tmp.4 = lgetv %coords.1;
+        symbol [ coords %tmp.4 118 19 25 ];
+        %tmp.5 = 1;
+        %tmp.6 = agetv %tmp.4 %tmp.5;
+        lputv %yPos.2 %tmp.6;
+        symbol [ yPos %yPos.2 118 12 16 ];
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 121 8 ]
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_121_8_133_8_if_stmt:
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_121_12_121_34_begin:
+        %tmp.7 = lgetv %yPos.2;
+        symbol [ yPos %tmp.7 121 12 16 ];
+        %tmp.8 = 40;
+        %tmp.9 = gte %tmp.7 %tmp.8;
+        bf %tmp.9 @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_121_8_133_8_if_false;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_121_26_121_34_true:
+        %tmp.10 = lgetv %yPos.2;
+        symbol [ yPos %tmp.10 121 26 30 ];
+        %tmp.11 = 150;
+        %tmp.12 = lte %tmp.10 %tmp.11;
+        push %tmp.12;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_121_26_121_34_end:
+        %tmp.13 = phi [%tmp.9 @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_121_12_121_34_begin] [%tmp.12 @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_121_26_121_34_true] [%tmp.13 @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_121_26_121_34_end];
+        bf %tmp.13 @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_121_8_133_8_if_false;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_121_8_133_8_if_true:
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_121_39_123_8_start:
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 122 12 ]
+        %tmp.14 = self;
+        symbol [ toggleListeningState %tmp.15 122 19 39 ];
+        %tmp.15 = getv function %tmp.14 :toggleListeningState;
+        %tmp.16 = invoke %tmp.14 %tmp.15();
+        ret %tmp.16;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_121_39_123_8_stop:
+        goto @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_121_8_133_8_if_end;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_121_8_133_8_if_false:
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 126 13 ]
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_126_13_133_8_if_stmt:
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_126_17_126_40_begin:
+        %tmp.17 = lgetv %yPos.2;
+        symbol [ yPos %tmp.17 126 17 21 ];
+        %tmp.18 = 160;
+        %tmp.19 = gte %tmp.17 %tmp.18;
+        bf %tmp.19 @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_126_13_133_8_if_end;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_126_32_126_40_true:
+        %tmp.20 = lgetv %yPos.2;
+        symbol [ yPos %tmp.20 126 32 36 ];
+        %tmp.21 = 260;
+        %tmp.22 = lte %tmp.20 %tmp.21;
+        push %tmp.22;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_126_32_126_40_end:
+        %tmp.23 = phi [%tmp.19 @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_126_17_126_40_begin] [%tmp.22 @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_126_32_126_40_true] [%tmp.23 @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_126_32_126_40_end];
+        bf %tmp.23 @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_126_13_133_8_if_end;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_126_13_133_8_if_true:
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_126_45_133_8_start:
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 127 12 ]
+        [ "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_126_45_133_8_start" "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_126_45_133_8_stop" ]
+        %current.3 = local;
+        symbol [ current %current.3 127 16 23 ];
+        symbol [ Application %tmp.24 127 26 37 ];
+        %tmp.24 = getm $.Toybox.Application;
+        symbol [ Storage %tmp.25 127 38 45 ];
+        %tmp.25 = getv %tmp.24 :Storage;
+        symbol [ getValue %tmp.26 127 46 54 ];
+        %tmp.26 = getv function %tmp.25 :getValue;
+        %tmp.27 = "showCoords";
+        %tmp.28 = invoke %tmp.25 %tmp.26(%tmp.27);
+        lputv %current.3 %tmp.28;
+        symbol [ current %current.3 127 16 23 ];
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 128 12 ]
+        [ "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_126_45_133_8_start" "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_126_45_133_8_stop" ]
+        %showCoords.4 = local;
+        symbol [ showCoords %showCoords.4 128 16 26 ];
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_128_30_128_60_begin:
+        %tmp.29 = lgetv %current.3;
+        symbol [ current %tmp.29 128 30 37 ];
+        %tmp.30 = null;
+        %tmp.31 = eq %tmp.29 %tmp.30;
+        %tmp.32 = dup %tmp.31;
+        bt %tmp.32 @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_128_49_128_60_end;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_128_49_128_60_false:
+        %tmp.33 = lgetv %current.3;
+        symbol [ current %tmp.33 128 49 56 ];
+        %tmp.34 = as %tmp.33 { (!Null) };
+        %tmp.35 = true;
+        %tmp.36 = eq %tmp.34 %tmp.35;
+        %tmp.37 = or %tmp.31 %tmp.36;
+        push %tmp.37;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_128_49_128_60_end:
+        %tmp.38 = phi [%tmp.32 @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_128_30_128_60_begin] [%tmp.37 @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_128_49_128_60_false] [%tmp.38 @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_128_49_128_60_end];
+        lputv %showCoords.4 %tmp.38;
+        symbol [ showCoords %showCoords.4 128 16 26 ];
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 130 12 ]
+        symbol [ Application %tmp.39 130 12 23 ];
+        %tmp.39 = getm $.Toybox.Application;
+        symbol [ Storage %tmp.40 130 24 31 ];
+        %tmp.40 = getv %tmp.39 :Storage;
+        symbol [ setValue %tmp.41 130 32 40 ];
+        %tmp.41 = getv function %tmp.40 :setValue;
+        %tmp.42 = "showCoords";
+        %tmp.43 = lgetv %showCoords.4;
+        symbol [ showCoords %tmp.43 130 56 66 ];
+        %tmp.44 = not %tmp.43;
+        invoke %tmp.40 %tmp.41(%tmp.42, %tmp.44);
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 131 12 ]
+        symbol [ WatchUi %tmp.45 131 12 19 ];
+        %tmp.45 = getm $.Toybox.WatchUi;
+        symbol [ requestUpdate %tmp.46 131 20 33 ];
+        %tmp.46 = getv function %tmp.45 :requestUpdate;
+        invoke %tmp.45 %tmp.46();
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 132 12 ]
+        %tmp.47 = true;
+        ret %tmp.47;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_126_45_133_8_stop:
+        goto @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_126_13_133_8_if_end;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_126_13_133_8_if_end:
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_121_8_133_8_if_end:
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 135 8 ]
+        %tmp.48 = false;
+        ret %tmp.48;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_116_57_136_4_stop:
+    }
+    [ @file = "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc"; @line = 138; @symbol_functiondef = [toggleListeningState,138,21,41]; @symbol_return<0> = [Boolean,138,47,54]; ]
+    private
+    function toggleListeningState() as Boolean {
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_138_55_158_4_start:
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 139 8 ]
+        [ "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_138_55_158_4_start" "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_138_55_158_4_stop" ]
+        %active.1 = local;
+        symbol [ active %active.1 139 12 18 ];
+        symbol [ Application %tmp.1 139 21 32 ];
+        %tmp.1 = getm $.Toybox.Application;
+        symbol [ Storage %tmp.2 139 33 40 ];
+        %tmp.2 = getv %tmp.1 :Storage;
+        symbol [ getValue %tmp.3 139 41 49 ];
+        %tmp.3 = getv function %tmp.2 :getValue;
+        %tmp.4 = "isListeningActive";
+        %tmp.5 = invoke %tmp.2 %tmp.3(%tmp.4);
+        lputv %active.1 %tmp.5;
+        symbol [ active %active.1 139 12 18 ];
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 140 8 ]
+        [ "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_138_55_158_4_start" "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_138_55_158_4_stop" ]
+        %isActive.2 = local;
+        symbol [ isActive %isActive.2 140 12 20 ];
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_140_24_140_52_begin:
+        %tmp.6 = lgetv %active.1;
+        symbol [ active %tmp.6 140 24 30 ];
+        %tmp.7 = null;
+        %tmp.8 = ne %tmp.6 %tmp.7;
+        %tmp.9 = dup %tmp.8;
+        bf %tmp.9 @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_140_42_140_52_end;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_140_42_140_52_true:
+        %tmp.10 = lgetv %active.1;
+        symbol [ active %tmp.10 140 42 48 ];
+        %tmp.11 = as %tmp.10 { (!Null) };
+        %tmp.12 = true;
+        %tmp.13 = eq %tmp.11 %tmp.12;
+        %tmp.14 = and %tmp.8 %tmp.13;
+        push %tmp.14;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_140_42_140_52_end:
+        %tmp.15 = phi [%tmp.9 @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_140_24_140_52_begin] [%tmp.14 @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_140_42_140_52_true] [%tmp.15 @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_140_42_140_52_end];
+        lputv %isActive.2 %tmp.15;
+        symbol [ isActive %isActive.2 140 12 20 ];
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 142 8 ]
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_142_8_154_8_if_stmt:
+        %tmp.16 = lgetv %isActive.2;
+        symbol [ isActive %tmp.16 142 12 20 ];
+        bf %tmp.16 @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_142_8_154_8_if_else_false;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_142_8_154_8_if_true:
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_142_22_144_8_start:
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 143 12 ]
+        %tmp.17 = self;
+        symbol [ stopTracking %tmp.18 143 12 24 ];
+        %tmp.18 = getv function %tmp.17 :stopTracking;
+        invoke %tmp.17 %tmp.18();
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_142_22_144_8_stop:
+        goto @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_142_8_154_8_if_end;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_142_8_154_8_if_else_false:
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_144_15_154_8_start:
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 145 12 ]
+        symbol [ Application %tmp.19 145 12 23 ];
+        %tmp.19 = getm $.Toybox.Application;
+        symbol [ Storage %tmp.20 145 24 31 ];
+        %tmp.20 = getv %tmp.19 :Storage;
+        symbol [ setValue %tmp.21 145 32 40 ];
+        %tmp.21 = getv function %tmp.20 :setValue;
+        %tmp.22 = "isListeningActive";
+        %tmp.23 = true;
+        invoke %tmp.20 %tmp.21(%tmp.22, %tmp.23);
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 146 12 ]
+        %tmp.24 = false;
+        symbol [ hasTriggeredInSession ? 146 12 33 ];
+        putv self :hasTriggeredInSession %tmp.24;
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 147 12 ]
+        %tmp.25 = 0;
+        symbol [ snoozeUntilTime ? 147 12 27 ];
+        putv self :snoozeUntilTime %tmp.25;
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 149 12 ]
+        try @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_149_12_151_25_beginTry @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_149_12_151_25_endTry @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_149_12_151_25_catch @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_149_12_151_25_finally;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_149_12_151_25_beginTry:
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_149_16_151_12_start:
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 150 16 ]
+        symbol [ Position %tmp.26 150 16 24 ];
+        %tmp.26 = getm $.Toybox.Position;
+        symbol [ enableLocationEvents %tmp.27 150 25 45 ];
+        %tmp.27 = getv function %tmp.26 :enableLocationEvents;
+        symbol [ Position %tmp.28 150 46 54 ];
+        %tmp.28 = getm $.Toybox.Position;
+        symbol [ LOCATION_CONTINUOUS %tmp.29 150 55 74 ];
+        %tmp.29 = getv %tmp.28 :LOCATION_CONTINUOUS;
+        %tmp.30 = self;
+        symbol [ method %tmp.31 150 76 82 ];
+        %tmp.31 = getv function %tmp.30 :method;
+        %tmp.33 = const :onPositionUpdate;
+        symbol [ onPositionUpdate %tmp.33 150 84 100 const ];
+        %tmp.34 = invoke %tmp.30 %tmp.31(%tmp.33);
+        invoke %tmp.26 %tmp.27(%tmp.29, %tmp.34);
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_149_16_151_12_stop:
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_149_12_151_25_endTry:
+        jsr @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_149_12_151_25_finally;
+        goto @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_149_12_151_25_end;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_149_12_151_25_catch:
+        %tmp.35 = exception;
+        push %tmp.35;
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 151 14 ]
+        [ "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_149_12_151_25_catch" "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_151_14_151_25_end" ]
+        %e.3 = local;
+        symbol [ e %e.3 151 21 22 ];
+        %tmp.36 = dup %tmp.35;
+        lputv %e.3 %tmp.36;
+        symbol [ e %e.3 151 21 22 ];
+        jsr @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_149_12_151_25_finally;
+        pop;
+        goto @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_149_12_151_25_end;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_151_14_151_25_end:
+        try @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_149_12_151_25_catch @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_151_14_151_25_end @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_151_14_151_25_end @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_149_12_151_25_finally;
+        jsr @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_149_12_151_25_finally;
+        throw %tmp.35;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_149_12_151_25_finally:
+        jsrret;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_149_12_151_25_end:
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 153 12 ]
+        symbol [ System %tmp.37 153 12 18 ];
+        %tmp.37 = getm $.Toybox.System;
+        symbol [ println %tmp.38 153 19 26 ];
+        %tmp.38 = getv function %tmp.37 :println;
+        %tmp.39 = "Tracking STARTED.";
+        invoke %tmp.37 %tmp.38(%tmp.39);
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_144_15_154_8_stop:
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_142_8_154_8_if_end:
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 156 8 ]
+        symbol [ WatchUi %tmp.40 156 8 15 ];
+        %tmp.40 = getm $.Toybox.WatchUi;
+        symbol [ requestUpdate %tmp.41 156 16 29 ];
+        %tmp.41 = getv function %tmp.40 :requestUpdate;
+        invoke %tmp.40 %tmp.41();
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 157 8 ]
+        %tmp.42 = true;
+        ret %tmp.42;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_138_55_158_4_stop:
+    }
+    [ @file = "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc"; @line = 160; @symbol_functiondef = [stopTracking,160,27,39]; ]
+    public static
+    function stopTracking() as Void {
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_160_50_168_4_start:
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 161 8 ]
+        symbol [ Application %tmp.1 161 8 19 ];
+        %tmp.1 = getm $.Toybox.Application;
+        symbol [ Storage %tmp.2 161 20 27 ];
+        %tmp.2 = getv %tmp.1 :Storage;
+        symbol [ setValue %tmp.3 161 28 36 ];
+        %tmp.3 = getv function %tmp.2 :setValue;
+        %tmp.4 = "isListeningActive";
+        %tmp.5 = false;
+        invoke %tmp.2 %tmp.3(%tmp.4, %tmp.5);
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 163 8 ]
+        symbol [ Position %tmp.6 163 8 16 ];
+        %tmp.6 = getm $.Toybox.Position;
+        symbol [ enableLocationEvents %tmp.7 163 17 37 ];
+        %tmp.7 = getv function %tmp.6 :enableLocationEvents;
+        symbol [ Position %tmp.8 163 38 46 ];
+        %tmp.8 = getm $.Toybox.Position;
+        symbol [ LOCATION_DISABLE %tmp.9 163 47 63 ];
+        %tmp.9 = getv %tmp.8 :LOCATION_DISABLE;
+        %tmp.10 = null;
+        invoke %tmp.6 %tmp.7(%tmp.9, %tmp.10);
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 164 8 ]
+        %tmp.11 = false;
+        symbol [ hasTriggeredInSession ? 164 8 29 ];
+        putv self :hasTriggeredInSession %tmp.11;
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 165 8 ]
+        %tmp.12 = 0;
+        symbol [ snoozeUntilTime ? 165 8 23 ];
+        putv self :snoozeUntilTime %tmp.12;
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 166 8 ]
+        symbol [ System %tmp.13 166 8 14 ];
+        %tmp.13 = getm $.Toybox.System;
+        symbol [ println %tmp.14 166 15 22 ];
+        %tmp.14 = getv function %tmp.13 :println;
+        %tmp.15 = "Tracking STOPPED.";
+        invoke %tmp.13 %tmp.14(%tmp.15);
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 167 8 ]
+        symbol [ WatchUi %tmp.16 167 8 15 ];
+        %tmp.16 = getm $.Toybox.WatchUi;
+        symbol [ requestUpdate %tmp.17 167 16 29 ];
+        %tmp.17 = getv function %tmp.16 :requestUpdate;
+        invoke %tmp.16 %tmp.17();
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_160_50_168_4_stop:
+    }
+    [ @file = "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc"; @line = 170; @symbol_functiondef = [onPositionUpdate,170,13,29]; @symbol_param<0> = [info,170,30,34]; @symbol_param<0>_type<0> = [Position,170,38,46]; @symbol_param<0>_type<1> = [Info,170,47,51]; ]
+    function onPositionUpdate(info as Position.Info) as Void {
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_170_61_196_4_start:
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 171 8 ]
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_171_8_195_8_if_stmt:
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_171_12_171_45_begin:
+        %tmp.1 = lgetv %info;
+        symbol [ info %tmp.1 171 12 16 ];
+        %tmp.2 = null;
+        %tmp.3 = ne %tmp.1 %tmp.2;
+        bf %tmp.3 @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_171_8_195_8_if_end;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_171_28_171_45_true:
+        %tmp.4 = lgetv %info;
+        symbol [ info %tmp.4 171 28 32 ];
+        %tmp.5 = as %tmp.4 { (!Null) };
+        symbol [ position %tmp.6 171 33 41 ];
+        %tmp.6 = getv %tmp.5 :position;
+        %tmp.7 = null;
+        %tmp.8 = ne %tmp.6 %tmp.7;
+        push %tmp.8;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_171_28_171_45_end:
+        %tmp.9 = phi [%tmp.3 @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_171_12_171_45_begin] [%tmp.8 @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_171_28_171_45_true] [%tmp.9 @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_171_28_171_45_end];
+        bf %tmp.9 @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_171_8_195_8_if_end;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_171_8_195_8_if_true:
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_171_51_195_8_start:
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 172 12 ]
+        [ "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_171_51_195_8_start" "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_171_51_195_8_stop" ]
+        %latLon.1 = local;
+        symbol [ latLon %latLon.1 172 16 22 ];
+        %tmp.10 = lgetv %info;
+        symbol [ info %tmp.10 172 25 29 ];
+        %tmp.11 = as %tmp.10 { (!Null) };
+        symbol [ position %tmp.12 172 30 38 ];
+        %tmp.12 = getv %tmp.11 :position;
+        symbol [ toDegrees %tmp.13 172 39 48 ];
+        %tmp.13 = getv function %tmp.12 :toDegrees;
+        %tmp.14 = invoke %tmp.12 %tmp.13();
+        lputv %latLon.1 %tmp.14;
+        symbol [ latLon %latLon.1 172 16 22 ];
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 173 12 ]
+        [ "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_171_51_195_8_start" "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_171_51_195_8_stop" ]
+        %lat.2 = local;
+        symbol [ lat %lat.2 173 16 19 ];
+        %tmp.15 = lgetv %latLon.1;
+        symbol [ latLon %tmp.15 173 22 28 ];
+        %tmp.16 = 0;
+        %tmp.17 = agetv %tmp.15 %tmp.16;
+        lputv %lat.2 %tmp.17;
+        symbol [ lat %lat.2 173 16 19 ];
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 174 12 ]
+        [ "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_171_51_195_8_start" "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_171_51_195_8_stop" ]
+        %lon.3 = local;
+        symbol [ lon %lon.3 174 16 19 ];
+        %tmp.18 = lgetv %latLon.1;
+        symbol [ latLon %tmp.18 174 22 28 ];
+        %tmp.19 = 1;
+        %tmp.20 = agetv %tmp.18 %tmp.19;
+        lputv %lon.3 %tmp.20;
+        symbol [ lon %lon.3 174 16 19 ];
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 175 12 ]
+        [ "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_171_51_195_8_start" "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_171_51_195_8_stop" ]
+        %currentTime.4 = local;
+        symbol [ currentTime %currentTime.4 175 16 27 ];
+        symbol [ Time %tmp.21 175 30 34 ];
+        %tmp.21 = getm $.Toybox.Time;
+        symbol [ now %tmp.22 175 35 38 ];
+        %tmp.22 = getv function %tmp.21 :now;
+        %tmp.23 = invoke %tmp.21 %tmp.22();
+        symbol [ value %tmp.24 175 41 46 ];
+        %tmp.24 = getv function %tmp.23 :value;
+        %tmp.25 = invoke %tmp.23 %tmp.24();
+        lputv %currentTime.4 %tmp.25;
+        symbol [ currentTime %currentTime.4 175 16 27 ];
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 177 12 ]
+        symbol [ Application %tmp.26 177 12 23 ];
+        %tmp.26 = getm $.Toybox.Application;
+        symbol [ Storage %tmp.27 177 24 31 ];
+        %tmp.27 = getv %tmp.26 :Storage;
+        symbol [ setValue %tmp.28 177 32 40 ];
+        %tmp.28 = getv function %tmp.27 :setValue;
+        %tmp.29 = "lastLat";
+        %tmp.30 = lgetv %lat.2;
+        symbol [ lat %tmp.30 177 52 55 ];
+        invoke %tmp.27 %tmp.28(%tmp.29, %tmp.30);
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 178 12 ]
+        symbol [ Application %tmp.31 178 12 23 ];
+        %tmp.31 = getm $.Toybox.Application;
+        symbol [ Storage %tmp.32 178 24 31 ];
+        %tmp.32 = getv %tmp.31 :Storage;
+        symbol [ setValue %tmp.33 178 32 40 ];
+        %tmp.33 = getv function %tmp.32 :setValue;
+        %tmp.34 = "lastLon";
+        %tmp.35 = lgetv %lon.3;
+        symbol [ lon %tmp.35 178 52 55 ];
+        invoke %tmp.32 %tmp.33(%tmp.34, %tmp.35);
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 179 12 ]
+        symbol [ Application %tmp.36 179 12 23 ];
+        %tmp.36 = getm $.Toybox.Application;
+        symbol [ Storage %tmp.37 179 24 31 ];
+        %tmp.37 = getv %tmp.36 :Storage;
+        symbol [ setValue %tmp.38 179 32 40 ];
+        %tmp.38 = getv function %tmp.37 :setValue;
+        %tmp.39 = "lastTime";
+        %tmp.40 = lgetv %currentTime.4;
+        symbol [ currentTime %tmp.40 179 53 64 ];
+        invoke %tmp.37 %tmp.38(%tmp.39, %tmp.40);
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 181 12 ]
+        [ "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_171_51_195_8_start" "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_171_51_195_8_stop" ]
+        %distance.5 = local;
+        symbol [ distance %distance.5 181 16 24 ];
+        %tmp.41 = self;
+        symbol [ calculateDistance %tmp.42 181 27 44 ];
+        %tmp.42 = getv function %tmp.41 :calculateDistance;
+        %tmp.43 = lgetv %lat.2;
+        symbol [ lat %tmp.43 181 45 48 ];
+        %tmp.44 = lgetv %lon.3;
+        symbol [ lon %tmp.44 181 50 53 ];
+        symbol [ TARGET_LAT %tmp.46 181 55 65 ];
+        %tmp.46 = getv ? :TARGET_LAT;
+        symbol [ TARGET_LON %tmp.48 181 67 77 ];
+        %tmp.48 = getv ? :TARGET_LON;
+        %tmp.49 = invoke %tmp.41 %tmp.42(%tmp.43, %tmp.44, %tmp.46, %tmp.48);
+        lputv %distance.5 %tmp.49;
+        symbol [ distance %distance.5 181 16 24 ];
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 182 12 ]
+        symbol [ Application %tmp.50 182 12 23 ];
+        %tmp.50 = getm $.Toybox.Application;
+        symbol [ Storage %tmp.51 182 24 31 ];
+        %tmp.51 = getv %tmp.50 :Storage;
+        symbol [ setValue %tmp.52 182 32 40 ];
+        %tmp.52 = getv function %tmp.51 :setValue;
+        %tmp.53 = "lastDist";
+        %tmp.54 = lgetv %distance.5;
+        symbol [ distance %tmp.54 182 53 61 ];
+        invoke %tmp.51 %tmp.52(%tmp.53, %tmp.54);
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 184 12 ]
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_184_12_192_12_if_stmt:
+        %tmp.55 = lgetv %distance.5;
+        symbol [ distance %tmp.55 184 16 24 ];
+        symbol [ RADIUS_METERS %tmp.57 184 28 41 ];
+        %tmp.57 = getv ? :RADIUS_METERS;
+        %tmp.58 = lte %tmp.55 %tmp.57;
+        bf %tmp.58 @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_184_12_192_12_if_else_false;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_184_12_192_12_if_true:
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_184_43_190_12_start:
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 185 16 ]
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_185_16_189_16_if_stmt:
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_185_20_185_61_begin:
+        symbol [ hasTriggeredInSession %tmp.60 185 21 42 ];
+        %tmp.60 = getv ? :hasTriggeredInSession;
+        %tmp.61 = not %tmp.60;
+        bf %tmp.61 @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_185_16_189_16_if_end;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_185_46_185_61_true:
+        %tmp.62 = lgetv %currentTime.4;
+        symbol [ currentTime %tmp.62 185 46 57 ];
+        symbol [ snoozeUntilTime %tmp.64 185 61 76 ];
+        %tmp.64 = getv ? :snoozeUntilTime;
+        %tmp.65 = gte %tmp.62 %tmp.64;
+        push %tmp.65;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_185_46_185_61_end:
+        %tmp.66 = phi [%tmp.61 @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_185_20_185_61_begin] [%tmp.65 @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_185_46_185_61_true] [%tmp.66 @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_185_46_185_61_end];
+        bf %tmp.66 @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_185_16_189_16_if_end;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_185_16_189_16_if_true:
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_185_78_189_16_start:
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 186 20 ]
+        %tmp.67 = true;
+        symbol [ hasTriggeredInSession ? 186 20 41 ];
+        putv self :hasTriggeredInSession %tmp.67;
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 187 20 ]
+        symbol [ System %tmp.68 187 20 26 ];
+        %tmp.68 = getm $.Toybox.System;
+        symbol [ println %tmp.69 187 27 34 ];
+        %tmp.69 = getv function %tmp.68 :println;
+        %tmp.70 = "Inside boundary! Opening target selection menu...";
+        invoke %tmp.68 %tmp.69(%tmp.70);
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 188 20 ]
+        %tmp.71 = self;
+        symbol [ openTargetMenu %tmp.72 188 20 34 ];
+        %tmp.72 = getv function %tmp.71 :openTargetMenu;
+        invoke %tmp.71 %tmp.72();
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_185_78_189_16_stop:
+        goto @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_185_16_189_16_if_end;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_185_16_189_16_if_end:
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_184_43_190_12_stop:
+        goto @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_184_12_192_12_if_end;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_184_12_192_12_if_else_false:
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_190_19_192_12_start:
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 191 16 ]
+        %tmp.73 = false;
+        symbol [ hasTriggeredInSession ? 191 16 37 ];
+        putv self :hasTriggeredInSession %tmp.73;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_190_19_192_12_stop:
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_184_12_192_12_if_end:
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 194 12 ]
+        symbol [ WatchUi %tmp.74 194 12 19 ];
+        %tmp.74 = getm $.Toybox.WatchUi;
+        symbol [ requestUpdate %tmp.75 194 20 33 ];
+        %tmp.75 = getv function %tmp.74 :requestUpdate;
+        invoke %tmp.74 %tmp.75();
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_171_51_195_8_stop:
+        goto @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_171_8_195_8_if_end;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_171_8_195_8_if_end:
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_170_61_196_4_stop:
+    }
+    [ @file = "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc"; @line = 198; @symbol_functiondef = [calculateDistance,198,21,38]; @symbol_param<0> = [lat1,198,39,43]; @symbol_param<0>_type<0> = [Double,198,47,53]; @symbol_param<1> = [lon1,198,55,59]; @symbol_param<1>_type<0> = [Double,198,63,69]; @symbol_param<2> = [lat2,198,71,75]; @symbol_param<2>_type<0> = [Double,198,79,85]; @symbol_param<3> = [lon2,198,87,91]; @symbol_param<3>_type<0> = [Double,198,95,101]; @symbol_return<0> = [Float,198,106,111]; ]
+    private
+    function calculateDistance(lat1 as Double, lon1 as Double, lat2 as Double, lon2 as Double) as Float {
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_198_112_210_4_start:
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 199 8 ]
+        [ "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_198_112_210_4_start" "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_198_112_210_4_stop" ]
+        %radLat1.1 = local;
+        symbol [ radLat1 %radLat1.1 199 12 19 ];
+        symbol [ Math %tmp.1 199 22 26 ];
+        %tmp.1 = getm $.Toybox.Math;
+        symbol [ toRadians %tmp.2 199 27 36 ];
+        %tmp.2 = getv function %tmp.1 :toRadians;
+        %tmp.3 = lgetv %lat1;
+        symbol [ lat1 %tmp.3 199 37 41 ];
+        %tmp.4 = invoke %tmp.1 %tmp.2(%tmp.3);
+        lputv %radLat1.1 %tmp.4;
+        symbol [ radLat1 %radLat1.1 199 12 19 ];
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 200 8 ]
+        [ "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_198_112_210_4_start" "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_198_112_210_4_stop" ]
+        %radLat2.2 = local;
+        symbol [ radLat2 %radLat2.2 200 12 19 ];
+        symbol [ Math %tmp.5 200 22 26 ];
+        %tmp.5 = getm $.Toybox.Math;
+        symbol [ toRadians %tmp.6 200 27 36 ];
+        %tmp.6 = getv function %tmp.5 :toRadians;
+        %tmp.7 = lgetv %lat2;
+        symbol [ lat2 %tmp.7 200 37 41 ];
+        %tmp.8 = invoke %tmp.5 %tmp.6(%tmp.7);
+        lputv %radLat2.2 %tmp.8;
+        symbol [ radLat2 %radLat2.2 200 12 19 ];
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 201 8 ]
+        [ "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_198_112_210_4_start" "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_198_112_210_4_stop" ]
+        %deltaLat.3 = local;
+        symbol [ deltaLat %deltaLat.3 201 12 20 ];
+        symbol [ Math %tmp.9 201 23 27 ];
+        %tmp.9 = getm $.Toybox.Math;
+        symbol [ toRadians %tmp.10 201 28 37 ];
+        %tmp.10 = getv function %tmp.9 :toRadians;
+        %tmp.11 = lgetv %lat2;
+        symbol [ lat2 %tmp.11 201 38 42 ];
+        %tmp.12 = lgetv %lat1;
+        symbol [ lat1 %tmp.12 201 45 49 ];
+        %tmp.13 = sub %tmp.11 %tmp.12;
+        %tmp.14 = invoke %tmp.9 %tmp.10(%tmp.13);
+        lputv %deltaLat.3 %tmp.14;
+        symbol [ deltaLat %deltaLat.3 201 12 20 ];
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 202 8 ]
+        [ "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_198_112_210_4_start" "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_198_112_210_4_stop" ]
+        %deltaLon.4 = local;
+        symbol [ deltaLon %deltaLon.4 202 12 20 ];
+        symbol [ Math %tmp.15 202 23 27 ];
+        %tmp.15 = getm $.Toybox.Math;
+        symbol [ toRadians %tmp.16 202 28 37 ];
+        %tmp.16 = getv function %tmp.15 :toRadians;
+        %tmp.17 = lgetv %lon2;
+        symbol [ lon2 %tmp.17 202 38 42 ];
+        %tmp.18 = lgetv %lon1;
+        symbol [ lon1 %tmp.18 202 45 49 ];
+        %tmp.19 = sub %tmp.17 %tmp.18;
+        %tmp.20 = invoke %tmp.15 %tmp.16(%tmp.19);
+        lputv %deltaLon.4 %tmp.20;
+        symbol [ deltaLon %deltaLon.4 202 12 20 ];
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 204 8 ]
+        [ "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_198_112_210_4_start" "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_198_112_210_4_stop" ]
+        %a.5 = local;
+        symbol [ a %a.5 204 12 13 ];
+        symbol [ Math %tmp.21 204 16 20 ];
+        %tmp.21 = getm $.Toybox.Math;
+        symbol [ sin %tmp.22 204 21 24 ];
+        %tmp.22 = getv function %tmp.21 :sin;
+        %tmp.23 = lgetv %deltaLat.3;
+        symbol [ deltaLat %tmp.23 204 25 33 ];
+        %tmp.24 = 2;
+        %tmp.25 = div %tmp.23 %tmp.24;
+        %tmp.26 = invoke %tmp.21 %tmp.22(%tmp.25);
+        symbol [ Math %tmp.27 204 41 45 ];
+        %tmp.27 = getm $.Toybox.Math;
+        symbol [ sin %tmp.28 204 46 49 ];
+        %tmp.28 = getv function %tmp.27 :sin;
+        %tmp.29 = lgetv %deltaLat.3;
+        symbol [ deltaLat %tmp.29 204 50 58 ];
+        %tmp.30 = 2;
+        %tmp.31 = div %tmp.29 %tmp.30;
+        %tmp.32 = invoke %tmp.27 %tmp.28(%tmp.31);
+        %tmp.33 = mul %tmp.26 %tmp.32;
+        symbol [ Math %tmp.34 205 16 20 ];
+        %tmp.34 = getm $.Toybox.Math;
+        symbol [ cos %tmp.35 205 21 24 ];
+        %tmp.35 = getv function %tmp.34 :cos;
+        %tmp.36 = lgetv %radLat1.1;
+        symbol [ radLat1 %tmp.36 205 25 32 ];
+        %tmp.37 = invoke %tmp.34 %tmp.35(%tmp.36);
+        symbol [ Math %tmp.38 205 36 40 ];
+        %tmp.38 = getm $.Toybox.Math;
+        symbol [ cos %tmp.39 205 41 44 ];
+        %tmp.39 = getv function %tmp.38 :cos;
+        %tmp.40 = lgetv %radLat2.2;
+        symbol [ radLat2 %tmp.40 205 45 52 ];
+        %tmp.41 = invoke %tmp.38 %tmp.39(%tmp.40);
+        %tmp.42 = mul %tmp.37 %tmp.41;
+        symbol [ Math %tmp.43 206 16 20 ];
+        %tmp.43 = getm $.Toybox.Math;
+        symbol [ sin %tmp.44 206 21 24 ];
+        %tmp.44 = getv function %tmp.43 :sin;
+        %tmp.45 = lgetv %deltaLon.4;
+        symbol [ deltaLon %tmp.45 206 25 33 ];
+        %tmp.46 = 2;
+        %tmp.47 = div %tmp.45 %tmp.46;
+        %tmp.48 = invoke %tmp.43 %tmp.44(%tmp.47);
+        %tmp.49 = mul %tmp.42 %tmp.48;
+        symbol [ Math %tmp.50 206 41 45 ];
+        %tmp.50 = getm $.Toybox.Math;
+        symbol [ sin %tmp.51 206 46 49 ];
+        %tmp.51 = getv function %tmp.50 :sin;
+        %tmp.52 = lgetv %deltaLon.4;
+        symbol [ deltaLon %tmp.52 206 50 58 ];
+        %tmp.53 = 2;
+        %tmp.54 = div %tmp.52 %tmp.53;
+        %tmp.55 = invoke %tmp.50 %tmp.51(%tmp.54);
+        %tmp.56 = mul %tmp.49 %tmp.55;
+        %tmp.57 = add %tmp.33 %tmp.56;
+        lputv %a.5 %tmp.57;
+        symbol [ a %a.5 204 12 13 ];
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 208 8 ]
+        [ "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_198_112_210_4_start" "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_198_112_210_4_stop" ]
+        %c.6 = local;
+        symbol [ c %c.6 208 12 13 ];
+        %tmp.58 = 2.0;
+        symbol [ Math %tmp.59 208 22 26 ];
+        %tmp.59 = getm $.Toybox.Math;
+        symbol [ atan2 %tmp.60 208 27 32 ];
+        %tmp.60 = getv function %tmp.59 :atan2;
+        symbol [ Math %tmp.61 208 33 37 ];
+        %tmp.61 = getm $.Toybox.Math;
+        symbol [ sqrt %tmp.62 208 38 42 ];
+        %tmp.62 = getv function %tmp.61 :sqrt;
+        %tmp.63 = lgetv %a.5;
+        symbol [ a %tmp.63 208 43 44 ];
+        %tmp.64 = invoke %tmp.61 %tmp.62(%tmp.63);
+        symbol [ Math %tmp.65 208 47 51 ];
+        %tmp.65 = getm $.Toybox.Math;
+        symbol [ sqrt %tmp.66 208 52 56 ];
+        %tmp.66 = getv function %tmp.65 :sqrt;
+        %tmp.67 = 1.0;
+        %tmp.68 = lgetv %a.5;
+        symbol [ a %tmp.68 208 63 64 ];
+        %tmp.69 = sub %tmp.67 %tmp.68;
+        %tmp.70 = invoke %tmp.65 %tmp.66(%tmp.69);
+        %tmp.71 = invoke %tmp.59 %tmp.60(%tmp.64, %tmp.70);
+        %tmp.72 = mul %tmp.58 %tmp.71;
+        lputv %c.6 %tmp.72;
+        symbol [ c %c.6 208 12 13 ];
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 209 8 ]
+        %tmp.73 = 6371000.0;
+        %tmp.74 = lgetv %c.6;
+        symbol [ c %tmp.74 209 28 29 ];
+        %tmp.75 = mul %tmp.73 %tmp.74;
+        symbol [ toFloat %tmp.76 209 31 38 ];
+        %tmp.76 = getv function %tmp.75 :toFloat;
+        %tmp.77 = invoke %tmp.75 %tmp.76();
+        ret %tmp.77;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_198_112_210_4_stop:
+    }
+    [ @file = "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc"; @line = 212; @symbol_functiondef = [onMenu,212,13,19]; @symbol_return<0> = [Boolean,212,25,32]; ]
+    function onMenu() as Boolean {
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_212_33_215_4_start:
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 213 8 ]
+        %tmp.1 = self;
+        symbol [ openTargetMenu %tmp.2 213 8 22 ];
+        %tmp.2 = getv function %tmp.1 :openTargetMenu;
+        invoke %tmp.1 %tmp.2();
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 214 8 ]
+        %tmp.3 = true;
+        ret %tmp.3;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_212_33_215_4_stop:
+    }
+    [ @file = "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc"; @line = 217; @symbol_functiondef = [openTargetMenu,217,21,35]; ]
+    private
+    function openTargetMenu() as Void {
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_217_46_228_4_start:
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 218 8 ]
+        [ "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_217_46_228_4_start" "C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_217_46_228_4_stop" ]
+        %menu.1 = local;
+        symbol [ menu %menu.1 218 12 16 ];
+        symbol [ WatchUi %tmp.3 218 23 30 ];
+        %tmp.3 = getm $.Toybox.WatchUi;
+        symbol [ Menu2 %tmp.4 218 31 36 ];
+        %tmp.4 = getv function ? %tmp.3 :Menu2;
+        %tmp.5 = newd 1;
+        %tmp.7 = const :title;
+        symbol [ title %tmp.7 218 39 44 const ];
+        %tmp.8 = "Remote Actions";
+        %tmp.9 = dup %tmp.5;
+        %tmp.10 = aputv %tmp.9 %tmp.7 %tmp.8;
+        %tmp.1 = newc %tmp.4 (%tmp.10);
+        lputv %menu.1 %tmp.1;
+        symbol [ menu %menu.1 218 12 16 ];
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 221 8 ]
+        symbol [ GeneratedConfig %tmp.12 221 8 23 ];
+        %tmp.12 = getv ? :GeneratedConfig;
+        symbol [ populateMenu %tmp.13 221 24 36 ];
+        %tmp.13 = getv function %tmp.12 :populateMenu;
+        %tmp.14 = lgetv %menu.1;
+        symbol [ menu %tmp.14 221 37 41 ];
+        invoke %tmp.12 %tmp.13(%tmp.14);
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 224 8 ]
+        %tmp.15 = lgetv %menu.1;
+        symbol [ menu %tmp.15 224 8 12 ];
+        symbol [ addItem %tmp.16 224 13 20 ];
+        %tmp.16 = getv function %tmp.15 :addItem;
+        symbol [ WatchUi %tmp.19 224 25 32 ];
+        %tmp.19 = getm $.Toybox.WatchUi;
+        symbol [ MenuItem %tmp.20 224 33 41 ];
+        %tmp.20 = getv function ? %tmp.19 :MenuItem;
+        %tmp.21 = "Snooze 10 min";
+        %tmp.22 = "Mute alerts temporarily";
+        %tmp.24 = const :snooze;
+        symbol [ snooze %tmp.24 224 87 93 const ];
+        %tmp.25 = null;
+        %tmp.17 = newc %tmp.20 (%tmp.21, %tmp.22, %tmp.24, %tmp.25);
+        invoke %tmp.15 %tmp.16(%tmp.17);
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 225 8 ]
+        %tmp.26 = lgetv %menu.1;
+        symbol [ menu %tmp.26 225 8 12 ];
+        symbol [ addItem %tmp.27 225 13 20 ];
+        %tmp.27 = getv function %tmp.26 :addItem;
+        symbol [ WatchUi %tmp.30 225 25 32 ];
+        %tmp.30 = getm $.Toybox.WatchUi;
+        symbol [ MenuItem %tmp.31 225 33 41 ];
+        %tmp.31 = getv function ? %tmp.30 :MenuItem;
+        %tmp.32 = "Stop Activity";
+        %tmp.33 = "End tracking session";
+        %tmp.35 = const :stop;
+        symbol [ stop %tmp.35 225 84 88 const ];
+        %tmp.36 = null;
+        %tmp.28 = newc %tmp.31 (%tmp.32, %tmp.33, %tmp.35, %tmp.36);
+        invoke %tmp.26 %tmp.27(%tmp.28);
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc" 227 8 ]
+        symbol [ WatchUi %tmp.37 227 8 15 ];
+        %tmp.37 = getm $.Toybox.WatchUi;
+        symbol [ pushView %tmp.38 227 16 24 ];
+        %tmp.38 = getv function %tmp.37 :pushView;
+        %tmp.39 = lgetv %menu.1;
+        symbol [ menu %tmp.39 227 25 29 ];
+        symbol [ TargetMenuDelegate %tmp.43 227 35 53 ];
+        %tmp.43 = getv ? :TargetMenuDelegate;
+        %tmp.40 = newc %tmp.43 ();
+        symbol [ WatchUi %tmp.44 227 57 64 ];
+        %tmp.44 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_IMMEDIATE %tmp.45 227 65 80 ];
+        %tmp.45 = getv %tmp.44 :SLIDE_IMMEDIATE;
+        invoke %tmp.37 %tmp.38(%tmp.39, %tmp.40, %tmp.45);
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceView_mc_217_46_228_4_stop:
+    }
+}
+[ @file = "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceView.mc"; @line = 1; ]
+<init> {
+}

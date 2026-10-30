@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="1" lineNum="32" parent="globals/GeofenceServiceDelegate" pc="268435460" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="2" lineNum="10" parent="globals/GeofenceApp" pc="268435472" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="3" lineNum="37" parent="globals/GeofenceServiceDelegate" pc="268435484" symbol="onTemporalEvent"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="3" lineNum="38" parent="globals/GeofenceServiceDelegate" pc="268435486" symbol="onTemporalEvent"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="4" lineNum="33" parent="globals/GeofenceServiceDelegate" pc="268435501" symbol="initialize"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="4" lineNum="34" parent="globals/GeofenceServiceDelegate" pc="268435503" symbol="initialize"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="5" lineNum="16" parent="globals/GeofenceApp" pc="268435516" symbol="onStart"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="6" lineNum="26" parent="globals/GeofenceApp" pc="268435519" symbol="getServiceDelegate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="6" lineNum="27" parent="globals/GeofenceApp" pc="268435521" symbol="getServiceDelegate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="7" lineNum="22" parent="globals/GeofenceApp" pc="268435547" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="7" lineNum="23" parent="globals/GeofenceApp" pc="268435549" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="8" lineNum="12" parent="globals/GeofenceApp" pc="268435596" symbol="initialize"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="8" lineNum="13" parent="globals/GeofenceApp" pc="268435598" symbol="initialize"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="9" lineNum="19" parent="globals/GeofenceApp" pc="268435611" symbol="onStop"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="10" lineNum="10" parent="globals/GeofenceView" pc="268435614" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="11" lineNum="42" parent="globals/TargetMenuDelegate" pc="268435626" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="12" lineNum="100" parent="globals/GeofenceDelegate" pc="268435638" symbol="&lt;init&gt;"/>
+        <entry filename="c:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\bin\\gen\\006-B4532-00\\source\\Rez.mcgen" id="13" lineNum="1254" parent="globals/Rez" pc="268435650" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="14" lineNum="16" parent="globals/GeofenceView" pc="268435670" symbol="onLayout"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="15" lineNum="12" parent="globals/GeofenceView" pc="268435673" symbol="initialize"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="15" lineNum="13" parent="globals/GeofenceView" pc="268435675" symbol="initialize"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="16" lineNum="19" parent="globals/GeofenceView" pc="268435688" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="16" lineNum="20" parent="globals/GeofenceView" pc="268435691" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="16" lineNum="22" parent="globals/GeofenceView" pc="268435700" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="16" lineNum="23" parent="globals/GeofenceView" pc="268435719" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="16" lineNum="24" parent="globals/GeofenceView" pc="268435738" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="16" lineNum="25" parent="globals/GeofenceView" pc="268435757" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="16" lineNum="26" parent="globals/GeofenceView" pc="268435776" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="16" lineNum="28" parent="globals/GeofenceView" pc="268435791" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="16" lineNum="29" parent="globals/GeofenceView" pc="268435803" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="16" lineNum="30" parent="globals/GeofenceView" pc="268435809" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="16" lineNum="32" parent="globals/GeofenceView" pc="268435832" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="16" lineNum="35" parent="globals/GeofenceView" pc="268435855" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="16" lineNum="37" parent="globals/GeofenceView" pc="268435875" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="16" lineNum="39" parent="globals/GeofenceView" pc="268435883" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="16" lineNum="40" parent="globals/GeofenceView" pc="268435896" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="16" lineNum="42" parent="globals/GeofenceView" pc="268435922" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="16" lineNum="43" parent="globals/GeofenceView" pc="268435926" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="16" lineNum="44" parent="globals/GeofenceView" pc="268435930" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="16" lineNum="45" parent="globals/GeofenceView" pc="268435937" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="16" lineNum="46" parent="globals/GeofenceView" pc="268435941" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="16" lineNum="47" parent="globals/GeofenceView" pc="268435957" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="16" lineNum="49" parent="globals/GeofenceView" pc="268435967" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="16" lineNum="50" parent="globals/GeofenceView" pc="268435972" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="16" lineNum="51" parent="globals/GeofenceView" pc="268435992" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="16" lineNum="53" parent="globals/GeofenceView" pc="268436015" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="16" lineNum="54" parent="globals/GeofenceView" pc="268436032" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="16" lineNum="56" parent="globals/GeofenceView" pc="268436064" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="16" lineNum="57" parent="globals/GeofenceView" pc="268436082" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="16" lineNum="58" parent="globals/GeofenceView" pc="268436111" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="16" lineNum="59" parent="globals/GeofenceView" pc="268436129" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="16" lineNum="61" parent="globals/GeofenceView" pc="268436152" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="16" lineNum="62" parent="globals/GeofenceView" pc="268436169" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="16" lineNum="68" parent="globals/GeofenceView" pc="268436198" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="16" lineNum="69" parent="globals/GeofenceView" pc="268436211" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="16" lineNum="71" parent="globals/GeofenceView" pc="268436218" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="16" lineNum="72" parent="globals/GeofenceView" pc="268436237" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="16" lineNum="74" parent="globals/GeofenceView" pc="268436251" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="16" lineNum="75" parent="globals/GeofenceView" pc="268436263" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="16" lineNum="76" parent="globals/GeofenceView" pc="268436269" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="16" lineNum="78" parent="globals/GeofenceView" pc="268436322" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="16" lineNum="80" parent="globals/GeofenceView" pc="268436329" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="16" lineNum="81" parent="globals/GeofenceView" pc="268436334" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="16" lineNum="82" parent="globals/GeofenceView" pc="268436359" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="16" lineNum="83" parent="globals/GeofenceView" pc="268436366" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="16" lineNum="84" parent="globals/GeofenceView" pc="268436407" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="16" lineNum="85" parent="globals/GeofenceView" pc="268436414" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="16" lineNum="88" parent="globals/GeofenceView" pc="268436458" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="16" lineNum="89" parent="globals/GeofenceView" pc="268436473" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="16" lineNum="92" parent="globals/GeofenceView" pc="268436502" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="16" lineNum="93" parent="globals/GeofenceView" pc="268436530" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="16" lineNum="94" parent="globals/GeofenceView" pc="268436537" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="16" lineNum="95" parent="globals/GeofenceView" pc="268436553" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="17" lineNum="78" parent="globals/TargetMenuDelegate" pc="268436582" symbol="onBack"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="17" lineNum="79" parent="globals/TargetMenuDelegate" pc="268436584" symbol="onBack"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="17" lineNum="80" parent="globals/TargetMenuDelegate" pc="268436593" symbol="onBack"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="18" lineNum="107" parent="globals/TargetMenuDelegate" pc="268436611" symbol="onReceiveWebResponse"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="18" lineNum="108" parent="globals/TargetMenuDelegate" pc="268436613" symbol="onReceiveWebResponse"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="18" lineNum="110" parent="globals/TargetMenuDelegate" pc="268436634" symbol="onReceiveWebResponse"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="18" lineNum="111" parent="globals/TargetMenuDelegate" pc="268436643" symbol="onReceiveWebResponse"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="18" lineNum="112" parent="globals/TargetMenuDelegate" pc="268436652" symbol="onReceiveWebResponse"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="18" lineNum="113" parent="globals/TargetMenuDelegate" pc="268436671" symbol="onReceiveWebResponse"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="18" lineNum="115" parent="globals/TargetMenuDelegate" pc="268436682" symbol="onReceiveWebResponse"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="18" lineNum="116" parent="globals/TargetMenuDelegate" pc="268436691" symbol="onReceiveWebResponse"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="18" lineNum="118" parent="globals/TargetMenuDelegate" pc="268436725" symbol="onReceiveWebResponse"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="18" lineNum="120" parent="globals/TargetMenuDelegate" pc="268436729" symbol="onReceiveWebResponse"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="18" lineNum="124" parent="globals/TargetMenuDelegate" pc="268436760" symbol="onReceiveWebResponse"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="18" lineNum="125" parent="globals/TargetMenuDelegate" pc="268436768" symbol="onReceiveWebResponse"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="19" lineNum="47" parent="globals/TargetMenuDelegate" pc="268436780" symbol="initialize"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="19" lineNum="48" parent="globals/TargetMenuDelegate" pc="268436782" symbol="initialize"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="19" lineNum="49" parent="globals/TargetMenuDelegate" pc="268436794" symbol="initialize"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="20" lineNum="84" parent="globals/TargetMenuDelegate" pc="268436824" symbol="&lt;globals/TargetMenuDelegate/&lt;&gt;sendTopicRequest&gt;"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="20" lineNum="85" parent="globals/TargetMenuDelegate" pc="268436827" symbol="&lt;globals/TargetMenuDelegate/&lt;&gt;sendTopicRequest&gt;"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="20" lineNum="86" parent="globals/TargetMenuDelegate" pc="268436835" symbol="&lt;globals/TargetMenuDelegate/&lt;&gt;sendTopicRequest&gt;"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="20" lineNum="87" parent="globals/TargetMenuDelegate" pc="268436850" symbol="&lt;globals/TargetMenuDelegate/&lt;&gt;sendTopicRequest&gt;"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="20" lineNum="90" parent="globals/TargetMenuDelegate" pc="268436861" symbol="&lt;globals/TargetMenuDelegate/&lt;&gt;sendTopicRequest&gt;"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="20" lineNum="92" parent="globals/TargetMenuDelegate" pc="268436868" symbol="&lt;globals/TargetMenuDelegate/&lt;&gt;sendTopicRequest&gt;"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="20" lineNum="99" parent="globals/TargetMenuDelegate" pc="268436894" symbol="&lt;globals/TargetMenuDelegate/&lt;&gt;sendTopicRequest&gt;"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="21" lineNum="128" parent="globals/TargetMenuDelegate" pc="268436938" symbol="dismissMenu"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="21" lineNum="129" parent="globals/TargetMenuDelegate" pc="268436941" symbol="dismissMenu"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="21" lineNum="131" parent="globals/TargetMenuDelegate" pc="268436949" symbol="dismissMenu"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="21" lineNum="132" parent="globals/TargetMenuDelegate" pc="268436969" symbol="dismissMenu"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="22" lineNum="52" parent="globals/TargetMenuDelegate" pc="268436986" symbol="onSelect"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="22" lineNum="53" parent="globals/TargetMenuDelegate" pc="268436989" symbol="onSelect"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="22" lineNum="54" parent="globals/TargetMenuDelegate" pc="268436997" symbol="onSelect"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="22" lineNum="57" parent="globals/TargetMenuDelegate" pc="268437001" symbol="onSelect"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="22" lineNum="58" parent="globals/TargetMenuDelegate" pc="268437010" symbol="onSelect"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="22" lineNum="59" parent="globals/TargetMenuDelegate" pc="268437021" symbol="onSelect"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="22" lineNum="60" parent="globals/TargetMenuDelegate" pc="268437052" symbol="onSelect"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="22" lineNum="61" parent="globals/TargetMenuDelegate" pc="268437070" symbol="onSelect"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="22" lineNum="62" parent="globals/TargetMenuDelegate" pc="268437084" symbol="onSelect"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="22" lineNum="63" parent="globals/TargetMenuDelegate" pc="268437088" symbol="onSelect"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="22" lineNum="64" parent="globals/TargetMenuDelegate" pc="268437099" symbol="onSelect"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="22" lineNum="65" parent="globals/TargetMenuDelegate" pc="268437111" symbol="onSelect"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="22" lineNum="66" parent="globals/TargetMenuDelegate" pc="268437125" symbol="onSelect"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="22" lineNum="70" parent="globals/TargetMenuDelegate" pc="268437129" symbol="onSelect"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="22" lineNum="71" parent="globals/TargetMenuDelegate" pc="268437145" symbol="onSelect"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="22" lineNum="72" parent="globals/TargetMenuDelegate" pc="268437170" symbol="onSelect"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="22" lineNum="73" parent="globals/TargetMenuDelegate" pc="268437179" symbol="onSelect"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceApp.mc" id="22" lineNum="74" parent="globals/TargetMenuDelegate" pc="268437205" symbol="onSelect"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="23" lineNum="198" parent="globals/GeofenceDelegate" pc="268437222" symbol="&lt;globals/GeofenceDelegate/&lt;&gt;calculateDistance&gt;"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="23" lineNum="199" parent="globals/GeofenceDelegate" pc="268437225" symbol="&lt;globals/GeofenceDelegate/&lt;&gt;calculateDistance&gt;"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="23" lineNum="200" parent="globals/GeofenceDelegate" pc="268437241" symbol="&lt;globals/GeofenceDelegate/&lt;&gt;calculateDistance&gt;"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="23" lineNum="201" parent="globals/GeofenceDelegate" pc="268437257" symbol="&lt;globals/GeofenceDelegate/&lt;&gt;calculateDistance&gt;"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="23" lineNum="202" parent="globals/GeofenceDelegate" pc="268437276" symbol="&lt;globals/GeofenceDelegate/&lt;&gt;calculateDistance&gt;"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="23" lineNum="204" parent="globals/GeofenceDelegate" pc="268437295" symbol="&lt;globals/GeofenceDelegate/&lt;&gt;calculateDistance&gt;"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="23" lineNum="208" parent="globals/GeofenceDelegate" pc="268437398" symbol="&lt;globals/GeofenceDelegate/&lt;&gt;calculateDistance&gt;"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="23" lineNum="209" parent="globals/GeofenceDelegate" pc="268437452" symbol="&lt;globals/GeofenceDelegate/&lt;&gt;calculateDistance&gt;"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="24" lineNum="212" parent="globals/GeofenceDelegate" pc="268437467" symbol="onMenu"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="24" lineNum="213" parent="globals/GeofenceDelegate" pc="268437469" symbol="onMenu"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="24" lineNum="214" parent="globals/GeofenceDelegate" pc="268437476" symbol="onMenu"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="25" lineNum="116" parent="globals/GeofenceDelegate" pc="268437478" symbol="onTap"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="25" lineNum="117" parent="globals/GeofenceDelegate" pc="268437481" symbol="onTap"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="25" lineNum="118" parent="globals/GeofenceDelegate" pc="268437490" symbol="onTap"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="25" lineNum="121" parent="globals/GeofenceDelegate" pc="268437497" symbol="onTap"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="25" lineNum="122" parent="globals/GeofenceDelegate" pc="268437514" symbol="onTap"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="25" lineNum="126" parent="globals/GeofenceDelegate" pc="268437524" symbol="onTap"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="25" lineNum="127" parent="globals/GeofenceDelegate" pc="268437542" symbol="onTap"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="25" lineNum="128" parent="globals/GeofenceDelegate" pc="268437561" symbol="onTap"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="25" lineNum="130" parent="globals/GeofenceDelegate" pc="268437576" symbol="onTap"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="25" lineNum="131" parent="globals/GeofenceDelegate" pc="268437597" symbol="onTap"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="25" lineNum="132" parent="globals/GeofenceDelegate" pc="268437608" symbol="onTap"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="25" lineNum="135" parent="globals/GeofenceDelegate" pc="268437613" symbol="onTap"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="26" lineNum="112" parent="globals/GeofenceDelegate" pc="268437615" symbol="onBack"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="26" lineNum="113" parent="globals/GeofenceDelegate" pc="268437617" symbol="onBack"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="27" lineNum="160" parent="globals/GeofenceDelegate" pc="268437619" symbol="stopTracking"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="27" lineNum="161" parent="globals/GeofenceDelegate" pc="268437621" symbol="stopTracking"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="27" lineNum="163" parent="globals/GeofenceDelegate" pc="268437640" symbol="stopTracking"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="27" lineNum="164" parent="globals/GeofenceDelegate" pc="268437656" symbol="stopTracking"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="27" lineNum="165" parent="globals/GeofenceDelegate" pc="268437664" symbol="stopTracking"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="27" lineNum="166" parent="globals/GeofenceDelegate" pc="268437672" symbol="stopTracking"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="27" lineNum="167" parent="globals/GeofenceDelegate" pc="268437690" symbol="stopTracking"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="28" lineNum="138" parent="globals/GeofenceDelegate" pc="268437702" symbol="&lt;globals/GeofenceDelegate/&lt;&gt;toggleListeningState&gt;"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="28" lineNum="139" parent="globals/GeofenceDelegate" pc="268437705" symbol="&lt;globals/GeofenceDelegate/&lt;&gt;toggleListeningState&gt;"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="28" lineNum="140" parent="globals/GeofenceDelegate" pc="268437724" symbol="&lt;globals/GeofenceDelegate/&lt;&gt;toggleListeningState&gt;"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="28" lineNum="142" parent="globals/GeofenceDelegate" pc="268437739" symbol="&lt;globals/GeofenceDelegate/&lt;&gt;toggleListeningState&gt;"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="28" lineNum="143" parent="globals/GeofenceDelegate" pc="268437744" symbol="&lt;globals/GeofenceDelegate/&lt;&gt;toggleListeningState&gt;"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="28" lineNum="145" parent="globals/GeofenceDelegate" pc="268437754" symbol="&lt;globals/GeofenceDelegate/&lt;&gt;toggleListeningState&gt;"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="28" lineNum="146" parent="globals/GeofenceDelegate" pc="268437773" symbol="&lt;globals/GeofenceDelegate/&lt;&gt;toggleListeningState&gt;"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="28" lineNum="147" parent="globals/GeofenceDelegate" pc="268437781" symbol="&lt;globals/GeofenceDelegate/&lt;&gt;toggleListeningState&gt;"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="28" lineNum="150" parent="globals/GeofenceDelegate" pc="268437789" symbol="&lt;globals/GeofenceDelegate/&lt;&gt;toggleListeningState&gt;"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="28" lineNum="151" parent="globals/GeofenceDelegate" pc="268437823" symbol="&lt;globals/GeofenceDelegate/&lt;&gt;toggleListeningState&gt;"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="28" lineNum="153" parent="globals/GeofenceDelegate" pc="268437839" symbol="&lt;globals/GeofenceDelegate/&lt;&gt;toggleListeningState&gt;"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="28" lineNum="156" parent="globals/GeofenceDelegate" pc="268437857" symbol="&lt;globals/GeofenceDelegate/&lt;&gt;toggleListeningState&gt;"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="28" lineNum="157" parent="globals/GeofenceDelegate" pc="268437868" symbol="&lt;globals/GeofenceDelegate/&lt;&gt;toggleListeningState&gt;"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="29" lineNum="108" parent="globals/GeofenceDelegate" pc="268437870" symbol="initialize"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="29" lineNum="109" parent="globals/GeofenceDelegate" pc="268437872" symbol="initialize"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="30" lineNum="217" parent="globals/GeofenceDelegate" pc="268437885" symbol="&lt;globals/GeofenceDelegate/&lt;&gt;openTargetMenu&gt;"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="30" lineNum="218" parent="globals/GeofenceDelegate" pc="268437888" symbol="&lt;globals/GeofenceDelegate/&lt;&gt;openTargetMenu&gt;"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="30" lineNum="221" parent="globals/GeofenceDelegate" pc="268437928" symbol="&lt;globals/GeofenceDelegate/&lt;&gt;openTargetMenu&gt;"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="30" lineNum="224" parent="globals/GeofenceDelegate" pc="268437943" symbol="&lt;globals/GeofenceDelegate/&lt;&gt;openTargetMenu&gt;"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="30" lineNum="225" parent="globals/GeofenceDelegate" pc="268437991" symbol="&lt;globals/GeofenceDelegate/&lt;&gt;openTargetMenu&gt;"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="30" lineNum="227" parent="globals/GeofenceDelegate" pc="268438039" symbol="&lt;globals/GeofenceDelegate/&lt;&gt;openTargetMenu&gt;"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="31" lineNum="170" parent="globals/GeofenceDelegate" pc="268438074" symbol="onPositionUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="31" lineNum="171" parent="globals/GeofenceDelegate" pc="268438077" symbol="onPositionUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="31" lineNum="172" parent="globals/GeofenceDelegate" pc="268438094" symbol="onPositionUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="31" lineNum="173" parent="globals/GeofenceDelegate" pc="268438109" symbol="onPositionUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="31" lineNum="174" parent="globals/GeofenceDelegate" pc="268438115" symbol="onPositionUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="31" lineNum="175" parent="globals/GeofenceDelegate" pc="268438122" symbol="onPositionUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="31" lineNum="177" parent="globals/GeofenceDelegate" pc="268438140" symbol="onPositionUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="31" lineNum="178" parent="globals/GeofenceDelegate" pc="268438160" symbol="onPositionUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="31" lineNum="179" parent="globals/GeofenceDelegate" pc="268438180" symbol="onPositionUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="31" lineNum="181" parent="globals/GeofenceDelegate" pc="268438200" symbol="onPositionUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="31" lineNum="182" parent="globals/GeofenceDelegate" pc="268438232" symbol="onPositionUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="31" lineNum="184" parent="globals/GeofenceDelegate" pc="268438252" symbol="onPositionUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="31" lineNum="185" parent="globals/GeofenceDelegate" pc="268438263" symbol="onPositionUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="31" lineNum="186" parent="globals/GeofenceDelegate" pc="268438283" symbol="onPositionUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="31" lineNum="187" parent="globals/GeofenceDelegate" pc="268438291" symbol="onPositionUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="31" lineNum="188" parent="globals/GeofenceDelegate" pc="268438309" symbol="onPositionUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="31" lineNum="191" parent="globals/GeofenceDelegate" pc="268438322" symbol="onPositionUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeofenceView.mc" id="31" lineNum="194" parent="globals/GeofenceDelegate" pc="268438330" symbol="onPositionUpdate"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeneratedConfig.mc" id="32" lineNum="16" parent="globals/GeneratedConfig" pc="268438345" symbol="getPayload"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeneratedConfig.mc" id="32" lineNum="17" parent="globals/GeneratedConfig" pc="268438355" symbol="getPayload"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeneratedConfig.mc" id="32" lineNum="17" parent="globals/GeneratedConfig" pc="268438366" symbol="getPayload"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeneratedConfig.mc" id="32" lineNum="18" parent="globals/GeneratedConfig" pc="268438375" symbol="getPayload"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeneratedConfig.mc" id="32" lineNum="18" parent="globals/GeneratedConfig" pc="268438386" symbol="getPayload"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeneratedConfig.mc" id="32" lineNum="19" parent="globals/GeneratedConfig" pc="268438395" symbol="getPayload"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeneratedConfig.mc" id="33" lineNum="11" parent="globals/GeneratedConfig" pc="268438401" symbol="populateMenu"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeneratedConfig.mc" id="33" lineNum="12" parent="globals/GeneratedConfig" pc="268438411" symbol="populateMenu"/>
+        <entry filename="C:\\Users\\kevin\\Documents\\codingProjects\\GarminGeofence\\app\\source\\GeneratedConfig.mc" id="33" lineNum="13" parent="globals/GeneratedConfig" pc="268438460" symbol="populateMenu"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="10" object="true" symbol="GeofenceDelegate"/>
+        <entry id="11" object="true" symbol="GeofenceServiceDelegate"/>
+        <entry field="true" id="24" symbol="hasTriggeredInSession"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="9" object="true" symbol="GeofenceApp"/>
+        <entry id="22" method="true" symbol="&lt;globals/GeofenceDelegate/&lt;&gt;openTargetMenu&gt;"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry id="27" method="true" symbol="populateMenu"/>
+        <entry id="6" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8389594" symbol="headers"/>
+        <entry id="8389080" method="true" symbol="onMenu"/>
+        <entry id="2" module="true" symbol="globals/GeneratedConfig"/>
+        <entry id="13" object="true" symbol="TargetMenuDelegate"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="8389081" method="true" symbol="onBack"/>
+        <entry id="4" module="true" symbol="globals/Rez"/>
+        <entry id="8390148" method="true" symbol="onTemporalEvent"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry id="3" module="true" symbol="globals/GeofenceDelegate/&lt;statics&gt;"/>
+        <entry id="26" method="true" symbol="stopTracking"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8390169" method="true" symbol="getServiceDelegate"/>
+        <entry id="23" method="true" symbol="&lt;globals/GeofenceDelegate/&lt;&gt;toggleListeningState&gt;"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry id="8389098" method="true" symbol="onTap"/>
+        <entry id="8389251" method="true" symbol="getPayload"/>
+        <entry id="14" method="true" symbol="dismissMenu"/>
+        <entry id="8388637" module="true" symbol="Communications"/>
+        <entry id="5" module="true" symbol="globals/Rez/Drawables"/>
+        <entry field="true" id="19" symbol="&lt;globals/TargetMenuDelegate/&lt;statics&gt;/&lt;&gt;isSending&gt;"/>
+        <entry id="8388699" method="true" symbol="stop"/>
+        <entry field="true" id="17" symbol="&lt;globals/TargetMenuDelegate/&lt;&gt;selectedItem&gt;"/>
+        <entry id="8388786" method="true" symbol="method"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry field="true" id="15" symbol="&lt;globals/TargetMenuDelegate/&lt;&gt;dismissTimer&gt;"/>
+        <entry id="8389619" method="true" symbol="onSelect"/>
+        <entry id="8388645" module="true" symbol="Time"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry id="18" method="true" symbol="&lt;globals/TargetMenuDelegate/&lt;&gt;sendTopicRequest&gt;"/>
+        <entry id="20" method="true" symbol="&lt;globals/GeofenceDelegate/&lt;&gt;calculateDistance&gt;"/>
+        <entry id="8" module="true" symbol="GeneratedConfig"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry field="true" id="28" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="12" object="true" symbol="GeofenceView"/>
+        <entry field="true" id="25" symbol="snoozeUntilTime"/>
+        <entry id="16" method="true" symbol="onReceiveWebResponse"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry field="true" id="29" symbol="GeofenceWoL"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="8390146" module="true" symbol="Background"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="32" symbol="action_1"/>
+        <entry id="31" symbol="action_0"/>
+        <entry id="8388641" module="true" symbol="Math"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry id="21" method="true" symbol="onPositionUpdate"/>
+        <entry id="7" module="true" symbol="globals/TargetMenuDelegate/&lt;statics&gt;"/>
+        <entry id="8388646" module="true" object="true" symbol="Timer"/>
+        <entry id="8388642" module="true" symbol="Position"/>
+        <entry id="30" symbol="snooze"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+        <entry field="true" id="8389642" symbol="title"/>
+    </symbolTable>
+    <localVars>
+        <entry arg="true" endPc="268436581" name="dc" stackId="1" startPc="268435688"/>
+        <entry endPc="268436580" name="width" stackId="2" startPc="268435691"/>
+        <entry endPc="268436580" name="dist" stackId="3" startPc="268435691"/>
+        <entry endPc="268436580" name="lat" stackId="4" startPc="268435691"/>
+        <entry endPc="268436580" name="lon" stackId="5" startPc="268435691"/>
+        <entry endPc="268436580" name="active" stackId="6" startPc="268435691"/>
+        <entry endPc="268436580" name="isActive" stackId="7" startPc="268435691"/>
+        <entry endPc="268436580" name="buttonY" stackId="8" startPc="268435691"/>
+        <entry endPc="268436580" name="globalSpacer" stackId="9" startPc="268435691"/>
+        <entry endPc="268436580" name="buttonHeight" stackId="10" startPc="268435691"/>
+        <entry endPc="268436580" name="buttonWidth" stackId="11" startPc="268435691"/>
+        <entry endPc="268436580" name="buttonX" stackId="12" startPc="268435691"/>
+        <entry endPc="268436580" name="yPos" stackId="13" startPc="268435691"/>
+        <entry endPc="268436580" name="showCoordsObj" stackId="14" startPc="268435691"/>
+        <entry endPc="268436580" name="showCoords" stackId="15" startPc="268435691"/>
+        <entry arg="true" endPc="268436779" name="responseCode" stackId="1" startPc="268436611"/>
+        <entry arg="true" endPc="268436779" name="data" stackId="2" startPc="268436611"/>
+        <entry arg="true" endPc="268436937" name="secretPayload" stackId="1" startPc="268436824"/>
+        <entry arg="true" endPc="268436937" name="item" stackId="2" startPc="268436824"/>
+        <entry endPc="268436936" name="webhookUrl" stackId="3" startPc="268436827"/>
+        <entry endPc="268436936" name="options" stackId="4" startPc="268436827"/>
+        <entry endPc="268436979" name="e" stackId="1" startPc="268436969"/>
+        <entry arg="true" endPc="268437221" name="item" stackId="1" startPc="268436986"/>
+        <entry endPc="268437220" name="id" stackId="2" startPc="268436989"/>
+        <entry endPc="268437220" name="payload" stackId="3" startPc="268436989"/>
+        <entry arg="true" endPc="268437466" name="lat1" stackId="1" startPc="268437222"/>
+        <entry arg="true" endPc="268437466" name="lon1" stackId="2" startPc="268437222"/>
+        <entry arg="true" endPc="268437466" name="lat2" stackId="3" startPc="268437222"/>
+        <entry arg="true" endPc="268437466" name="lon2" stackId="4" startPc="268437222"/>
+        <entry endPc="268437466" name="radLat1" stackId="5" startPc="268437225"/>
+        <entry endPc="268437466" name="radLat2" stackId="6" startPc="268437225"/>
+        <entry endPc="268437466" name="deltaLat" stackId="7" startPc="268437225"/>
+        <entry endPc="268437466" name="deltaLon" stackId="8" startPc="268437225"/>
+        <entry endPc="268437466" name="a" stackId="9" startPc="268437225"/>
+        <entry endPc="268437466" name="c" stackId="10" startPc="268437225"/>
+        <entry arg="true" endPc="268437614" name="evt" stackId="1" startPc="268437478"/>
+        <entry endPc="268437614" name="coords" stackId="2" startPc="268437481"/>
+        <entry endPc="268437614" name="yPos" stackId="3" startPc="268437481"/>
+        <entry endPc="268437609" name="current" stackId="4" startPc="268437542"/>
+        <entry endPc="268437609" name="showCoords" stackId="5" startPc="268437542"/>
+        <entry endPc="268437869" name="active" stackId="1" startPc="268437705"/>
+        <entry endPc="268437869" name="isActive" stackId="2" startPc="268437705"/>
+        <entry endPc="268437833" name="e" stackId="3" startPc="268437823"/>
+        <entry endPc="268438072" name="menu" stackId="1" startPc="268437888"/>
+        <entry arg="true" endPc="268438344" name="info" stackId="1" startPc="268438074"/>
+        <entry endPc="268438340" name="latLon" stackId="2" startPc="268438094"/>
+        <entry endPc="268438340" name="lat" stackId="3" startPc="268438094"/>
+        <entry endPc="268438340" name="lon" stackId="4" startPc="268438094"/>
+        <entry endPc="268438340" name="currentTime" stackId="5" startPc="268438094"/>
+        <entry endPc="268438340" name="distance" stackId="6" startPc="268438094"/>
+        <entry arg="true" endPc="268438400" name="id" stackId="1" startPc="268438345"/>
+        <entry arg="true" endPc="268438509" name="menu" stackId="1" startPc="268438401"/>
+    </localVars>
+    <deviceInfo deviceVersion="69f9c27a08d175c50b86464a70c24d15718945cb" partNumber="006-B4532-00"/>
+    <annotations>
+        <annotationEntry annotation="background" class="GeofenceApp" module="globals" symbol="onStop"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="GeofenceWoL"/>
+        <annotationEntry annotation="background" class="GeofenceApp" module="globals" symbol="getInitialView"/>
+        <annotationEntry annotation="background" class="GeofenceApp" module="globals" symbol="initialize"/>
+        <annotationEntry annotation="background" class="GeofenceServiceDelegate" module="globals" symbol="onTemporalEvent"/>
+        <annotationEntry annotation="background" class="GeofenceApp" module="globals" symbol="getServiceDelegate"/>
+        <annotationEntry annotation="background" class="GeofenceApp" module="globals" symbol="onStart"/>
+        <annotationEntry annotation="background" class="GeofenceServiceDelegate" module="globals" symbol="initialize"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="76" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/GeofenceServiceDelegate" offset="170" parentId="globals" symbolId="GeofenceServiceDelegate" type="class"/>
+        <dataEntry label="globals/GeofenceApp" offset="223" parentId="globals" symbolId="GeofenceApp" type="class"/>
+        <dataEntry label="globals/GeofenceView" offset="303" parentId="globals" symbolId="GeofenceView" type="class"/>
+        <dataEntry label="globals/TargetMenuDelegate" offset="365" parentId="globals" symbolId="TargetMenuDelegate" type="class"/>
+        <dataEntry label="globals/TargetMenuDelegate/&lt;statics&gt;" offset="476" parentId="TargetMenuDelegate" symbolId="&lt;statics&gt;" type="module"/>
+        <dataEntry label="globals/GeofenceDelegate" offset="507" parentId="globals" symbolId="GeofenceDelegate" type="class"/>
+        <dataEntry label="globals/GeofenceDelegate/&lt;statics&gt;" offset="618" parentId="GeofenceDelegate" symbolId="&lt;statics&gt;" type="module"/>
+        <dataEntry label="globals/Rez" offset="667" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/GeneratedConfig" offset="711" parentId="globals" symbolId="GeneratedConfig" type="module"/>
+        <dataEntry label="globals/Rez/Drawables" offset="755" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="790" parentId="Rez" symbolId="Strings" type="module"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435471" name="&lt;init&gt;" parent="GeofenceServiceDelegate" startPc="268435460">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435483" name="&lt;init&gt;" parent="GeofenceApp" startPc="268435472">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435500" name="onTemporalEvent" parent="GeofenceServiceDelegate" startPc="268435484">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435515" name="initialize" parent="GeofenceServiceDelegate" startPc="268435501">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435518" name="onStart" parent="GeofenceApp" startPc="268435516">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435546" name="getServiceDelegate" parent="GeofenceApp" startPc="268435519">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435595" name="getInitialView" parent="GeofenceApp" startPc="268435547">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435610" name="initialize" parent="GeofenceApp" startPc="268435596">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435613" name="onStop" parent="GeofenceApp" startPc="268435611">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435625" name="&lt;init&gt;" parent="GeofenceView" startPc="268435614">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435637" name="&lt;init&gt;" parent="TargetMenuDelegate" startPc="268435626">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="globals/TargetMenuDelegate">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435649" name="&lt;init&gt;" parent="GeofenceDelegate" startPc="268435638">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="globals/GeofenceDelegate">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435669" name="&lt;init&gt;" parent="Rez" startPc="268435650">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="GeneratedConfig">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435672" name="onLayout" parent="GeofenceView" startPc="268435670">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435687" name="initialize" parent="GeofenceView" startPc="268435673">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436581" name="onUpdate" parent="GeofenceView" startPc="268435688">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436610" name="onBack" parent="TargetMenuDelegate" startPc="268436582">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436779" name="onReceiveWebResponse" parent="TargetMenuDelegate" startPc="268436611">
+            <param id="responseCode"/>
+            <param id="data"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436823" name="initialize" parent="TargetMenuDelegate" startPc="268436780">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268436937" name="&lt;globals/TargetMenuDelegate/&lt;&gt;sendTopicRequest&gt;" parent="TargetMenuDelegate" startPc="268436824">
+            <param id="secretPayload"/>
+            <param id="item"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436985" name="dismissMenu" parent="TargetMenuDelegate" startPc="268436938">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437221" name="onSelect" parent="TargetMenuDelegate" startPc="268436986">
+            <param id="item"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268437466" name="&lt;globals/GeofenceDelegate/&lt;&gt;calculateDistance&gt;" parent="GeofenceDelegate" startPc="268437222">
+            <param id="lat1"/>
+            <param id="lon1"/>
+            <param id="lat2"/>
+            <param id="lon2"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437477" name="onMenu" parent="GeofenceDelegate" startPc="268437467">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437614" name="onTap" parent="GeofenceDelegate" startPc="268437478">
+            <param id="evt"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437618" name="onBack" parent="GeofenceDelegate" startPc="268437615">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437701" name="stopTracking" parent="GeofenceDelegate" startPc="268437619">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268437869" name="&lt;globals/GeofenceDelegate/&lt;&gt;toggleListeningState&gt;" parent="GeofenceDelegate" startPc="268437702">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437884" name="initialize" parent="GeofenceDelegate" startPc="268437870">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268438073" name="&lt;globals/GeofenceDelegate/&lt;&gt;openTargetMenu&gt;" parent="GeofenceDelegate" startPc="268437885">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438344" name="onPositionUpdate" parent="GeofenceDelegate" startPc="268438074">
+            <param id="info"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438400" name="getPayload" parent="GeneratedConfig" startPc="268438345">
+            <param id="id"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438509" name="populateMenu" parent="GeneratedConfig" startPc="268438401">
+            <param id="menu"/>
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>

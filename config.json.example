@@ -1,0 +1,24 @@
+{
+  "GEO_FENCING": {
+    "radius_meters": 2414,
+    "description": "How close or far from your coordinate target before prompting on your watch."
+  },
+  "ACTIONS": {
+    "YOUR_SECURE_PASSWORD_1": {
+      "name": "Direct App Launch",
+      "batch_path": "launch_direct.bat",
+      "target_process": "YourAppName",
+      "poll_timeout": 12,
+      "post_launch_delay": 0,
+      "send_keys": null
+    },
+    "YOUR_SECURE_PASSWORD_2": {
+      "name": "Launch Runescape (OSRS)",
+      "batch_path": "launch_osrs.bat",
+      "target_process": "JagexLauncher",
+      "poll_timeout": 12,
+      "post_launch_delay": 5,
+      "send_keys": "{ENTER}"
+    }
+  }
+}

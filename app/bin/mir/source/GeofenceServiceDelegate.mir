@@ -1,0 +1,40 @@
+[ @file = "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceServiceDelegate.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [System,1,14,20]; ]
+import Toybox.System;
+[ @file = "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceServiceDelegate.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Background,2,14,24]; ]
+import Toybox.Background;
+[ @file = "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceServiceDelegate.mc"; @line = 5; background = true; @symbol_classdef = [GeofenceServiceDelegate,5,6,29]; @symbol_extends<0> = [System,5,38,44]; @symbol_extends<1> = [ServiceDelegate,5,45,60]; ]
+class GeofenceServiceDelegate extends System.ServiceDelegate {
+    [ @file = "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceServiceDelegate.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceServiceDelegate.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceServiceDelegate.mc"; @line = 6; @symbol_functiondef = [initialize,6,13,23]; ]
+    function initialize() as Void {
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceServiceDelegate_mc_6_26_8_4_start:
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceServiceDelegate.mc" 7 8 ]
+        symbol [ ServiceDelegate %tmp.2 7 8 23 ];
+        %tmp.2 = getv ? :ServiceDelegate;
+        symbol [ initialize %tmp.3 7 24 34 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceServiceDelegate_mc_6_26_8_4_stop:
+    }
+    [ @file = "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceServiceDelegate.mc"; @line = 10; @symbol_functiondef = [onTemporalEvent,10,13,28]; ]
+    function onTemporalEvent() as Void {
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceServiceDelegate_mc_10_39_12_4_start:
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceServiceDelegate.mc" 11 8 ]
+        symbol [ Background %tmp.1 11 8 18 ];
+        %tmp.1 = getm $.Toybox.Background;
+        symbol [ exit %tmp.2 11 19 23 ];
+        %tmp.2 = getv function %tmp.1 :exit;
+        %tmp.3 = null;
+        invoke %tmp.1 %tmp.2(%tmp.3);
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeofenceServiceDelegate_mc_10_39_12_4_stop:
+    }
+}
+[ @file = "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeofenceServiceDelegate.mc"; @line = 1; ]
+<init> {
+}

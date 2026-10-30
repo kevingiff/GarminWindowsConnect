@@ -1,0 +1,98 @@
+[ @file = "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeneratedConfig.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Lang,2,14,18]; ]
+import Toybox.Lang;
+[ @file = "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeneratedConfig.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [WatchUi,3,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeneratedConfig.mc"; @line = 5; @symbol_moduledef = [GeneratedConfig,5,7,22]; ]
+module GeneratedConfig {
+    [ @file = "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeneratedConfig.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeneratedConfig.mc"; @line = 6; @position = 17; @symbol_constdef = [WEBHOOK_URL,6,17,28]; @symbol_type<0> = [String,6,32,38]; ]
+    const WEBHOOK_URL as String = "https://ntfy.sh/k-p-g-w-c-9877fjjk2367sbmk567dj/json";
+    [ @file = "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeneratedConfig.mc"; @line = 7; @position = 17; @symbol_constdef = [TARGET_LAT,7,17,27]; @symbol_type<0> = [Double,7,31,37]; ]
+    const TARGET_LAT as Double = 39.7392d;
+    [ @file = "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeneratedConfig.mc"; @line = 8; @position = 17; @symbol_constdef = [TARGET_LON,8,17,27]; @symbol_type<0> = [Double,8,31,37]; ]
+    const TARGET_LON as Double = -104.9903d;
+    [ @file = "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeneratedConfig.mc"; @line = 9; @position = 17; @symbol_constdef = [RADIUS_METERS,9,17,30]; @symbol_type<0> = [Float,9,34,39]; ]
+    const RADIUS_METERS as Float = 500.0f;
+    [ @file = "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeneratedConfig.mc"; @line = 11; @symbol_functiondef = [populateMenu,11,20,32]; @symbol_param<0> = [menu,11,33,37]; @symbol_param<0>_type<0> = [WatchUi,11,41,48]; @symbol_param<0>_type<1> = [Menu2,11,49,54]; ]
+    function populateMenu(menu as WatchUi.Menu2) as Void {
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeneratedConfig_mc_11_64_14_4_start:
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeneratedConfig.mc" 12 8 ]
+        %tmp.1 = lgetv %menu;
+        symbol [ menu %tmp.1 12 8 12 ];
+        symbol [ addItem %tmp.2 12 13 20 ];
+        %tmp.2 = getv function %tmp.1 :addItem;
+        symbol [ WatchUi %tmp.5 12 25 32 ];
+        %tmp.5 = getm $.Toybox.WatchUi;
+        symbol [ MenuItem %tmp.6 12 33 41 ];
+        %tmp.6 = getv function ? %tmp.5 :MenuItem;
+        %tmp.7 = "RuneScape";
+        %tmp.8 = "Trigger";
+        %tmp.10 = const :action_0;
+        symbol [ action_0 %tmp.10 12 67 75 const ];
+        %tmp.11 = newd 0;
+        %tmp.3 = newc %tmp.6 (%tmp.7, %tmp.8, %tmp.10, %tmp.11);
+        invoke %tmp.1 %tmp.2(%tmp.3);
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeneratedConfig.mc" 13 8 ]
+        %tmp.12 = lgetv %menu;
+        symbol [ menu %tmp.12 13 8 12 ];
+        symbol [ addItem %tmp.13 13 13 20 ];
+        %tmp.13 = getv function %tmp.12 :addItem;
+        symbol [ WatchUi %tmp.16 13 25 32 ];
+        %tmp.16 = getm $.Toybox.WatchUi;
+        symbol [ MenuItem %tmp.17 13 33 41 ];
+        %tmp.17 = getv function ? %tmp.16 :MenuItem;
+        %tmp.18 = "Unity Editor";
+        %tmp.19 = "Trigger";
+        %tmp.21 = const :action_1;
+        symbol [ action_1 %tmp.21 13 70 78 const ];
+        %tmp.22 = newd 0;
+        %tmp.14 = newc %tmp.17 (%tmp.18, %tmp.19, %tmp.21, %tmp.22);
+        invoke %tmp.12 %tmp.13(%tmp.14);
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeneratedConfig_mc_11_64_14_4_stop:
+    }
+    [ @file = "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeneratedConfig.mc"; @line = 16; @symbol_functiondef = [getPayload,16,20,30]; @symbol_param<0> = [id,16,31,33]; @symbol_param<0>_type<0> = [Symbol,16,37,43]; @symbol_return<0> = [String,16,48,54]; ]
+    function getPayload(id as Symbol) as String {
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeneratedConfig_mc_16_55_20_4_start:
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeneratedConfig.mc" 17 8 ]
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeneratedConfig_mc_17_8_17_114_if_stmt:
+        %tmp.1 = lgetv %id;
+        symbol [ id %tmp.1 17 12 14 ];
+        %tmp.3 = const :action_0;
+        symbol [ action_0 %tmp.3 17 19 27 const ];
+        %tmp.4 = eq %tmp.1 %tmp.3;
+        bf %tmp.4 @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeneratedConfig_mc_17_8_17_114_if_end;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeneratedConfig_mc_17_8_17_114_if_true:
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeneratedConfig_mc_17_29_17_114_start:
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeneratedConfig.mc" 17 31 ]
+        %tmp.5 = "my-secure-r-token-9923982w345ighjikhujsd98y34hbjxfge4543g543g34f3ftgv34t";
+        ret %tmp.5;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeneratedConfig_mc_17_29_17_114_stop:
+        goto @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeneratedConfig_mc_17_8_17_114_if_end;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeneratedConfig_mc_17_8_17_114_if_end:
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeneratedConfig.mc" 18 8 ]
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeneratedConfig_mc_18_8_18_114_if_stmt:
+        %tmp.6 = lgetv %id;
+        symbol [ id %tmp.6 18 12 14 ];
+        %tmp.8 = const :action_1;
+        symbol [ action_1 %tmp.8 18 19 27 const ];
+        %tmp.9 = eq %tmp.6 %tmp.8;
+        bf %tmp.9 @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeneratedConfig_mc_18_8_18_114_if_end;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeneratedConfig_mc_18_8_18_114_if_true:
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeneratedConfig_mc_18_29_18_114_start:
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeneratedConfig.mc" 18 31 ]
+        %tmp.10 = "my-secure-g-token-12427683543778drfkmjmn45vbf8998dfjnkhdfkljne45098098g4";
+        ret %tmp.10;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeneratedConfig_mc_18_29_18_114_stop:
+        goto @C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeneratedConfig_mc_18_8_18_114_if_end;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeneratedConfig_mc_18_8_18_114_if_end:
+[ "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeneratedConfig.mc" 19 8 ]
+        %tmp.11 = "";
+        ret %tmp.11;
+C__Users_kevin_Documents_codingProjects_GarminGeofence_app_source_GeneratedConfig_mc_16_55_20_4_stop:
+    }
+}
+[ @file = "C:\Users\kevin\Documents\codingProjects\GarminGeofence\app\source\GeneratedConfig.mc"; @line = 2; ]
+<init> {
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<iq:manifest xmlns:iq="http://www.garmin.com/xml/connectiq" version="3">
+    <iq:application id="12345678-1234-1234-1234-123456789abc" type="watch-app" name="@Strings.GeofenceWoL" version="1.0.0" minApiLevel="3.2.0" entry="GeofenceApp" launcherIcon="@Drawables.LauncherIcon">
+        <iq:products>
+            <iq:product id="fenix8solar47mm"/>
+        </iq:products>
+        <iq:permissions>
+            <iq:uses-permission id="Background"/>
+            <iq:uses-permission id="Communications"/>
+            <iq:uses-permission id="Fit"/>
+            <iq:uses-permission id="Positioning"/>
+            <iq:uses-permission id="PushNotification"/>
+        </iq:permissions>
+        <iq:languages>
+            <iq:language>eng</iq:language>
+        </iq:languages>
+        <iq:barrels/>
+    </iq:application>
+</iq:manifest>
