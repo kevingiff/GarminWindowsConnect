@@ -44,7 +44,7 @@ pip install requests python-dotenv
 Open your terminal or Git Bash and clone the repository to your local machine:
 
 ```bash
-git clone [https://github.com/kevingiff/GarminWindowsConnect.git](https://github.com/kevingiff/GarminWindowsConnect.git)]
+git clone https://github.com/kevingiff/GarminWindowsConnect.git
 cd GarminWindowsConnect
 ```
 
