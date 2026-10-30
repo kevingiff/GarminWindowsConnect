@@ -48,7 +48,7 @@ git clone https://github.com/kevingiff/GarminWindowsConnect.git
 cd GarminWindowsConnect
 ```
 
-### Step 2: Set Up the Background Listener Shortcut
+### Step 2: Set Up the Desktop Shortcut
 Right-click start_listener.bat in your project folder and select Send to ➔ Desktop (create shortcut) (on Windows 11, click "Show more options" first).
 
 Move or copy the new shortcut to your Windows Desktop and rename it to something clean like Garmin Listener.
